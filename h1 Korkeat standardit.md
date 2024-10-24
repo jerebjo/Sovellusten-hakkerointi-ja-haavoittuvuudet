@@ -1,6 +1,6 @@
 # H1 Korkeat standardit 
 
-## Termejä ja määrityksiä 24.10.2024
+## Termejä ja määrityksiä (24.10.2024)
 
 ### 3.2 
 Hyökkäys = yritys tuhota, paljastaa, muuttaa, poistaa käytöstä, varastaa tai saada luvaton pääsy omaisuuteen tai käyttää sitä luvattomasti. 
@@ -17,3 +17,8 @@ Haavoittuvuus = Omaisuuden tai hallinnan heikkous, jota yksi tai useampi uhka vo
 ISO 27034-1 on standardisarja, joka keskittyy sovellusten tietoturvaan. Se auttaa organisaatioita integroimaan tietoruvan ohjelmistokehitysprosesseihin. Standardi tarjoaa viitekehyksen, jolla varmistetaan että
 sovellukset täyttävät tietoturvavaatimukset niiden koko elinkaaren ajan. 
 
+## Mielipiteitä podcastista
+Olen samaa mieltä Joonan kanssa, että automaatiotestausta tulisi hyödyntää, sillä mielestäni se helpottaa ohjeman tarkistusta ja sen avulla voidaan välttää useita tietoturva riskejä. Automaatiotestauksen avulla pystytään vähentämään inhimillisiä virheitä ja pystytään löytämään monet haavoittuvaisuudet nopeasti. Podcastissa keskustellaan myös teknisen ja johtopuolen kommunikaatiosta, joka on mielestäni tärkeä asia mikä tulee ottaa huomioon, kun keskuttellaan yrityksen tehtävistä. 
+
+## Lähteet
+Karvinen, T. 

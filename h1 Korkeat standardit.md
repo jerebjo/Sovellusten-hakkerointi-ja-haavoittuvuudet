@@ -19,10 +19,10 @@ ISO 27034-1 on standardisarja, joka keskittyy sovellusten tietoturvaan. Se autta
 sovellukset täyttävät tietoturvavaatimukset niiden koko elinkaaren ajan. 
 
 ## Mielipiteitä podcastista
-(Arter, 2021) Olen samaa mieltä Joonan kanssa, että automaatiotestausta tulisi hyödyntää, sillä mielestäni se helpottaa ohjeman tarkistusta ja sen avulla voidaan välttää useita tietoturva riskejä. Automaatiotestauksen avulla pystytään vähentämään inhimillisiä virheitä ja pystytään löytämään monet haavoittuvaisuudet nopeasti. Podcastissa keskustellaan myös teknisen ja johtopuolen kommunikaatiosta, joka on mielestäni tärkeä asia mikä tulee ottaa huomioon, kun keskuttellaan yrityksen tehtävistä. 
+(Arter, 2021) Olen samaa mieltä Joonan kanssa, että automaatiotestausta tulisi hyödyntää, sillä mielestäni se helpottaa ohjeman tarkistusta ja sen avulla voidaan välttää useita tietoturva riskejä. Automaatiotestauksen avulla pystytään vähentämään inhimillisiä virheitä ja pystytään löytämään monet haavoittuvaisuudet nopeasti. Podcastissa keskustellaan myös teknisen ja johtopuolen kommunikaatiosta, joka on mielestäni tärkeä asia mikä tulee ottaa huomioon, kun keskustellaan yrityksen tehtävistä. 
 
 ## Debian asennus
-tehty
+Tehty
 
 ## Lähteet
 - Karvinen, T. 12.4.2024. Sovellusten Hakkerointi ja haavoittuvuudet.

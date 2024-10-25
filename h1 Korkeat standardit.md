@@ -26,6 +26,6 @@ Tehty
 
 ## Lähteet
 - Karvinen, T. 12.4.2024. Sovellusten Hakkerointi ja haavoittuvuudet.
-- Arter. 25.10.2021. Laatulöpinät 30: Tietoturvallisuus ohjelmistokehityksessä. Kuunneltavissa: https://www.arter.fi/podcast/laatulopinat-podcast-tietoturvallisuus-- ohjelmistokehityksessa-tarkastele-kokonaisuutta-ja-hyodynna-viitekehykset/ Kuunneltu: 24.10.2024.
+- Meurman. 25.10.2021. Laatulöpinät 30: Tietoturvallisuus ohjelmistokehityksessä. Kuunneltavissa: https://www.arter.fi/podcast/laatulopinat-podcast-tietoturvallisuus-- ohjelmistokehityksessa-tarkastele-kokonaisuutta-ja-hyodynna-viitekehykset/ Kuunneltu: 24.10.2024.
 - Suomen standardisoimisliitto. 28.2.2020. SFS-EN ISO/IEC 27000:2020:en. Luettu: 24.10.2024.
 - ISO/IEC. 2011. ISO/IEC 27034-1. Luettu: 24.10.2024.

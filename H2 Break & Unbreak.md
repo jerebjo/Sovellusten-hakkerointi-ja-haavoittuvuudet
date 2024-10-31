@@ -103,6 +103,8 @@ Seuraavaksi latasin fluffin:
 
 ![T5](Kuvat/T5.png)
 
+![jackpot](Kuvat/jackpot.png)
+
 
 ## Murtaudu 020-your-eyes-only. Ks. Karvinen 2024
 
@@ -110,14 +112,12 @@ Aloitin siirtymällä oikeaan kansioon:
 
     $ cd challenges/020-your-eyes-only/
 
-Seuraavaksi latasin virtualenv:
+Seuraavaksi latasin ja aktivoin virtualenv:
 
     $ sudo apt-get -y install virtualenv
     $ virtualenv virtualenv/ -p python3 --system-site-packages
-
-Sitten aktivoin virtualenv:
-
-     $ source virtualenv/bin/activate
+aktivointi: 
+    $ source virtualenv/bin/activate
 
 Sitten lisäsin djangon: 
 
@@ -140,6 +140,21 @@ Lopuksi laitoin serverin päälle:
      $ ./manage.py runserver
 
  ![T3](Kuvat/T3.png)
+
+Seuraavaksi avasin uuden terminaalin ja syötin komennon 
+
+      $ ./ffuf
+
+Tässä kohtaan vielä rekisteröidyin nettisivulle ja kirjauduin sisään.
+
+Sitten syötin komennon: 
+
+      $ ./ffuf -w common.txt -u http://127.0.0.1:8000/FUZZ
+
+Huomasin, että tekstin seasta erottui tämä:
+
+
+      
 
 
 ## Lähteet

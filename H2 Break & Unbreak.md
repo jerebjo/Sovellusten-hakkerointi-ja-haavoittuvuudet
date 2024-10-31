@@ -25,5 +25,5 @@
 
 
 ## Lähteet
-- OWASP: OWASP Top 10: A01 Broken Access Control
-- Karvinen, T. 2023. Luettavissa:  Find Hidden Web Directories - Fuzz URLs with ffuf Luettu: 
+- OWASP. 2021. OWASP Top 10: A01 Broken Access Control. Luettavissa: (https://owasp.org/Top10/A01_2021-Broken_Access_Control/) Luettu: 31.10.2024.
+- Karvinen, T. 2023. Find Hidden Web Directories - Fuzz URLs with ffuf. Luettavissa: (https://terokarvinen.com/2023/fuzz-urls-find-hidden-directories/) Luettu: 31.10.2024.

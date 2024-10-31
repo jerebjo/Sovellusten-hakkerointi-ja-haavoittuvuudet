@@ -24,16 +24,18 @@
 ## Murtaudu 010-staff-only. Ks. Karvinen 2024: Hack'n Fix 
 
 Aloitin lataamalla Teron haastepaketin:
+ 
+ $ sudo apt-get update
+ $ sudo apt-get -y install wget unzip micro
+ 
 
-  $ sudo apt-get update
-  $ sudo apt-get -y install wget unzip micro
-
-  $ wget https://terokarvinen.com/hack-n-fix/teros-challenges.zip
-  $ unzip teros-challenges.zip
+ $ wget https://terokarvinen.com/hack-n-fix/teros-challenges.zip
+ $ unzip teros-challenges.zip
 
 Seuraavaksi latasin seuraavat ohjelmat:
-  sudo apt-get -y install python3-flask 
-  sudo apt-get -y install python3-flask-sqlalchemy
+
+ $ sudo apt-get -y install python3-flask 
+ $ sudo apt-get -y install python3-flask-sqlalchemy
 
 Sitten navigoin seuraavaan kansioon ja avasin sen microlla:
 

@@ -66,6 +66,16 @@ Sain ratkaistua tehtävän niin kuin kuvasta näkyy.
 
 En osannut korjata koodia :(
 
+## Ratkaise dirfuzt-1 artikkelista Karvinen 2023: Find Hidden Web Directories - Fuzz URLs with ffuf. 
+
+Aloitin lataamalla esimerkki kohteen: 
+
+     $ wget https://terokarvinen.com/2023/fuzz-urls-find-hidden-directories/dirfuzt-0
+     $ chmod u+x dirfuzt-0
+     $ ./dirfuzt-0 
+
+
+
 ## Murtaudu 020-your-eyes-only. Ks. Karvinen 2024
 
 Aloitin siirtymällä oikeaan kansioon: 
@@ -101,7 +111,7 @@ Lopuksi laitoin serverin päälle:
 
      $ ./manage.py runserver
 
- 
+ ![T3](Kuvat/T3.png)
 
 
 ## Lähteet

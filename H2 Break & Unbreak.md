@@ -2,28 +2,57 @@
 
 ## x) Lue/katso/kuuntele ja tiivistä
 
-### OWASP: OWASP Top 10: A01 Broken Access Control
+### OWASP: [OWASP Top 10: A01 Broken Access Control](https://owasp.org/Top10/A01_2021-Broken_Access_Control/)
 - Noin 94% ohjelmista kärsii joistakin pääsynhallinnan ongelmista.
 - Yleisiä heikkouksia ovat mm. pääsynhallinnan kiertäminen URL-muokkauksilla, Pääsynhallinnan puutteet API-kutsujen POST-, PUT- ja DELETE-toiminnoissa ja mahdollisuus tarkastella tai muokata toisen käyttäjän tietoja.
 - Pääsynhallinta toimii tehokkaasti vain luotetussa palvelinpuolen koodissa. Pääsy tulisi estää oletuksena, ottamatta huomioon julkisia resursseja. Vahvista myös tietueen omistajuus ja rajoita CORS-käyttöä.
 
-### Karvinen 2023: Find Hidden Web Directories - Fuzz URLs with ffuf
+### Karvinen 2023: [Find Hidden Web Directories - Fuzz URLs with ffuf](https://terokarvinen.com/2023/fuzz-urls-find-hidden-directories/)
 - Web-palvelimilla on monesti salaisia hakemistoja, joita ei ole linkitetty mihinkään.
 - Salaisia hakemistoja voi etsiä komennoilla kuten: /secret, /.svn ja /admin.
 - Fuff on monipuolinen fuzzing työkalu. Sen avulla voidaan löytää piilotettuja hakemistoja. Sitä voi käyttää esim. otsikoiden ja POST-parametrien fuzzaukseen.
 
-### PortSwigger: Access control vulnerabilities and privilege escalation 
+### PortSwigger: [Access control vulnerabilities and privilege escalation](https://portswigger.net/web-security/access-control)
 - Pääsynhallinta tarkoittaa rajoituksia, sille kuka voi suorittaa tiettyjä toimintoja tai pääsee tiettyihin resursseihin.
 - Verkkosovelluksissa pääsynhallinta perustuu autentikointiin ja istunnonhallintaan.
 - Rikkoutuneet pääsynhallinnat ovat yleisiä ja usein vakavia tietoturvaongelmia. Pääsynhallinnan suunnittelupäätökset tehdään ihmisten toimesta, joten virheiden mahdollisuus on suuri.
 
-### Karvinen 2006: Raportin kirjoittaminen
+### Karvinen 2006: [Raportin kirjoittaminen](https://terokarvinen.com/2006/raportin-kirjoittaminen-4/)
 - Raportointi on sitä kun kirjoitat ja kerrot täsmällisesti mitä teit ja mitä tapahtui. Raporttia kannattaa kirjoittaa sitä mukaan kun toimit. 
 - Hyvä raportti on toistettava, täsmälllinen, helppolukuinen ja siinä viitataan lähteisiin.
+
+## Murtaudu 010-staff-only. Ks. Karvinen 2024: Hack'n Fix 
+
+Aloitin lataamalla Teron haastepaketin:
+
+  $ sudo apt-get update
+  $ sudo apt-get -y install wget unzip micro
+
+  $ wget https://terokarvinen.com/hack-n-fix/teros-challenges.zip
+  $ unzip teros-challenges.zip
+
+Seuraavaksi latasin seuraavat ohjelmat:
+  sudo apt-get -y install python3-flask 
+  sudo apt-get -y install python3-flask-sqlalchemy
+
+Sitten navigoin seuraavaan kansioon ja avasin sen microlla:
+
+  $ cd challenges/010-staff-only/
+  $ micro python3 staff-only.py
+
+Seuraavaksi avasin nettisivun:
+
+  $ cd challenges/010-staff-only/
+  $ cd 010-staff-only
+  $ python3 staff-only.py
 
 
 
 
 ## Lähteet
-- OWASP. 2021. OWASP Top 10: A01 Broken Access Control. Luettavissa: (https://owasp.org/Top10/A01_2021-Broken_Access_Control/) Luettu: 31.10.2024.
-- Karvinen, T. 2023. Find Hidden Web Directories - Fuzz URLs with ffuf. Luettavissa: (https://terokarvinen.com/2023/fuzz-urls-find-hidden-directories/) Luettu: 31.10.2024.
+- OWASP. 2021. OWASP Top 10: A01 Broken Access Control. Luettavissa: https://owasp.org/Top10/A01_2021-Broken_Access_Control/ Luettu: 31.10.2024.
+- Karvinen, T. 2023. Find Hidden Web Directories - Fuzz URLs with ffuf. Luettavissa: https://terokarvinen.com/2023/fuzz-urls-find-hidden-directories/ Luettu: 31.10.2024.
+- PortSwigger. 2024. Access control vulnerabilities and privilege escalation. Luettavissa: https://portswigger.net/web-security/access-control Luettu: 31.10.2024.
+- Karvinen, T. 2006. Raportin kirjoittaminen. Luettavissa: https://terokarvinen.com/2006/raportin-kirjoittaminen-4/ Luettu: 31.10.2024.
+- Karvinen, T. 12.4.2024. Tehtävän anto. Luettavissa: https://terokarvinen.com/application-hacking/#h2-break--unbreak Luettu: 31.10.2024.
+  

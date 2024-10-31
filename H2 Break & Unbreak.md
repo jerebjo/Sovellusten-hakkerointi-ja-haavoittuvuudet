@@ -101,6 +101,7 @@ Seuraavaksi latasin fluffin:
 
       $ ./ffuf -w common.txt -u http://127.0.0.2:8000/FUZZ -fs 132
 
+![T5](Kuvat/T5.png)
 
 
 ## Murtaudu 020-your-eyes-only. Ks. Karvinen 2024

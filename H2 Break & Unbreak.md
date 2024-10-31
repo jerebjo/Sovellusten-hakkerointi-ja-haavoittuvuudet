@@ -58,7 +58,50 @@ Kokeilin syöttää samankaltaisen komennon käyttämällä name kohtaa userin t
 
     ' UNION SELECT password FROM pins--
 
+![T2](Kuvat/T2.png)
 
+Sain ratkaistua tehtävän niin kuin kuvasta näkyy. 
+
+## Korjaa 010-staff-only haavoittuvuus lähdekoodista. Osoita testillä, että ratkaisusi toimii. 
+
+En osannut korjata koodia :(
+
+## Murtaudu 020-your-eyes-only. Ks. Karvinen 2024
+
+Aloitin siirtymällä oikeaan kansioon: 
+
+    $ cd challenges/020-your-eyes-only/
+
+Seuraavaksi latasin virtualenv:
+
+    $ sudo apt-get -y install virtualenv
+    $ virtualenv virtualenv/ -p python3 --system-site-packages
+
+Sitten aktivoin virtualenv:
+
+     $ source virtualenv/bin/activate
+
+Sitten lisäsin djangon: 
+
+     $ cat requirements.txt django==4.2.*
+
+ja asensin sen:
+
+     pip install -r requirements.txt
+
+Siirryin kansioon, jossa on manage.py:
+     
+     $ cd logtin/
+
+Päivitin tietokannan:
+
+    $ ./manage.py makemigrations; ./manage.py migrate
+
+Lopuksi laitoin serverin päälle: 
+
+     $ ./manage.py runserver
+
+ 
 
 
 ## Lähteet

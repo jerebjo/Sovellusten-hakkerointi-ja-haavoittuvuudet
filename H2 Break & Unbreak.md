@@ -73,6 +73,33 @@ Aloitin lataamalla esimerkki kohteen:
      $ wget https://terokarvinen.com/2023/fuzz-urls-find-hidden-directories/dirfuzt-0
      $ chmod u+x dirfuzt-0
      $ ./dirfuzt-0 
+     
+![T4](Kuvat/T4.png)
+
+### Fluffin asennus
+
+Seuraavaksi latasin fluffin: 
+
+      $ wget https://github.com/ffuf/ffuf/releases/download/v2.0.0/ffuf_2.0.0_linux_amd64.tar.gz
+      $ tar -xf ffuf_2.0.0_linux_amd64.tar.gz
+      $ ./ffuf Fuzz Faster U Fool - v2.0.0
+
+ Seuraavaksi syötin seuraavan komennon: 
+
+      wget https://raw.githubusercontent.com/danielmiessler/SecLists/master/Discovery/Web-Content/common.txt
+
+ Seuraavaa kohtaa varten kytkin netin pois päältä.
+
+ Sitten:
+
+      $ ./ffuf
+      $ ./ffuf -w common.txt -u http://127.0.0.2:8000/FUZZ
+      $ ./ffuf -w common.txt -u http://127.0.0.2:8000/.bash_history
+      $ ./ffuf -w common.txt -u http://127.0.0.2:8000/.bashrc
+
+ Seuraavaksi rajataan hakua. Jokaisen ei halutun vastauksen näyttää olevan 132 tavua.
+
+      $ ./ffuf -w common.txt -u http://127.0.0.2:8000/FUZZ -fs 132
 
 
 

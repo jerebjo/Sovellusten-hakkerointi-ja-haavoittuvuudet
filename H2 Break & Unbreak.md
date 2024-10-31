@@ -46,7 +46,7 @@ Seuraavaksi avasin nettisivun:
   $ cd 010-staff-only
   $ python3 staff-only.py
 
-
+![T1](Kuvat/T1.png)
 
 
 ## Lähteet

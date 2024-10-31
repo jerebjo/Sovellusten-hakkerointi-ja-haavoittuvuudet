@@ -157,13 +157,17 @@ Huomasin, että tekstin seasta erottui tämä:
 
 Kokelin syöttää sen sivun URL-osoitteen jatkoksi "127.0.0.1:8000/admin-console/", jonka jälkeen onnistuin pääsemään salaiselle sivulle. 
 
+![admnconsole](Kuvat/adminconsole2.png)
       
+## e) Korjaa 020-your-eyes-only haavoittuvuus. Osoita testillä, että ratkaisusi toimii. 
 
+En osannut korjata tätäkään :(
 
 ## Lähteet
 - OWASP. 2021. OWASP Top 10: A01 Broken Access Control. Luettavissa: https://owasp.org/Top10/A01_2021-Broken_Access_Control/ Luettu: 31.10.2024.
 - Karvinen, T. 2023. Find Hidden Web Directories - Fuzz URLs with ffuf. Luettavissa: https://terokarvinen.com/2023/fuzz-urls-find-hidden-directories/ Luettu: 31.10.2024.
 - PortSwigger. 2024. Access control vulnerabilities and privilege escalation. Luettavissa: https://portswigger.net/web-security/access-control Luettu: 31.10.2024.
+- Portswigger. 2024. Union attacks. Using a SQL injection UNION attack to retrieve interesting data. Luettavissa: https://portswigger.net/web-security/sql-injection/union-attacks Luettu: 31.10.2024.
 - Karvinen, T. 2006. Raportin kirjoittaminen. Luettavissa: https://terokarvinen.com/2006/raportin-kirjoittaminen-4/ Luettu: 31.10.2024.
 - Karvinen, T. 12.4.2024. Tehtävän anto. Luettavissa: https://terokarvinen.com/application-hacking/#h2-break--unbreak Luettu: 31.10.2024.
   

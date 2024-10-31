@@ -153,6 +153,9 @@ Sitten syötin komennon:
 
 Huomasin, että tekstin seasta erottui tämä:
 
+![adminconsole](Kuvat/adminconsole.png)
+
+Kokelin syöttää sen sivun URL-osoitteen jatkoksi "127.0.0.1:8000/admin-console/", jonka jälkeen onnistuin pääsemään salaiselle sivulle. 
 
       
 

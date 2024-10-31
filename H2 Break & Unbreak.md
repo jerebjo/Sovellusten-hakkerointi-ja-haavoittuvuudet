@@ -25,30 +25,31 @@
 
 Aloitin lataamalla Teron haastepaketin:
  
- $ sudo apt-get update
- $ sudo apt-get -y install wget unzip micro
+    $ sudo apt-get update
+    $ sudo apt-get -y install wget unzip micro
  
 
- $ wget https://terokarvinen.com/hack-n-fix/teros-challenges.zip
- $ unzip teros-challenges.zip
+    $ wget https://terokarvinen.com/hack-n-fix/teros-challenges.zip
+    $ unzip teros-challenges.zip
 
 Seuraavaksi latasin seuraavat ohjelmat:
 
- $ sudo apt-get -y install python3-flask 
- $ sudo apt-get -y install python3-flask-sqlalchemy
+    $ sudo apt-get -y install python3-flask 
+    $ sudo apt-get -y install python3-flask-sqlalchemy
 
 Sitten navigoin seuraavaan kansioon ja avasin sen microlla:
 
-  $ cd challenges/010-staff-only/
-  $ micro python3 staff-only.py
+    $ cd challenges/010-staff-only/
+    $ micro python3 staff-only.py
 
 Seuraavaksi avasin nettisivun:
 
-  $ cd challenges/010-staff-only/
-  $ cd 010-staff-only
-  $ python3 staff-only.py
+    $ cd challenges/010-staff-only/
+    $ cd 010-staff-only
+    $ python3 staff-only.py
 
 ![T1](Kuvat/T1.png)
+
 
 
 ## Lähteet

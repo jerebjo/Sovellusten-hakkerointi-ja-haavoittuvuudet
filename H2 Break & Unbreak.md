@@ -50,6 +50,15 @@ Seuraavaksi avasin nettisivun:
 
 ![T1](Kuvat/T1.png)
 
+Kokeilin ensimmäisenä kirjoittaa kenttään sql-injektion "'or 1=1--" , mutta huomasin, ettei kenttään voi syöttää muuta kuin numeroita. Tämän jälkeen kokeilin inspect työkalua. Avasin sen painamalla "f12" ja kokeilin tyhjentää "type=" kohdan. Nyt pystyin syöttämään kenttään myös merkkejä. Syötin sinne uudelleen "' or 1=1--" ja sain "foo". Seuraavaksi luin lisää sql-injektioista. Luin UNION-hyökkäyksistä portswiggerin sivuilta ja löysin sieltä seuraavan komennon: 
+         
+         ' UNION SELECT username, password FROM users--
+
+Kokeilin syöttää samankaltaisen komennon käyttämällä name kohtaa userin tilalla:
+
+    ' UNION SELECT password FROM pins--
+
+
 
 
 ## Lähteet

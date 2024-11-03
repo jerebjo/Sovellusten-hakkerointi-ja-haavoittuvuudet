@@ -21,7 +21,7 @@
 - Raportointi on sitä kun kirjoitat ja kerrot täsmällisesti mitä teit ja mitä tapahtui. Raporttia kannattaa kirjoittaa sitä mukaan kun toimit. 
 - Hyvä raportti on toistettava, täsmälllinen, helppolukuinen ja siinä viitataan lähteisiin.
 
-## Murtaudu 010-staff-only. Ks. Karvinen 2024: Hack'n Fix 
+## Murtaudu 010-staff-only. Ks. [Karvinen 2024: Hack'n Fix](https://terokarvinen.com/hack-n-fix/) 
 
 Aloitin lataamalla Teron haastepaketin:
  
@@ -76,7 +76,7 @@ Aloitin lataamalla esimerkki kohteen:
      
 ![T4](Kuvat/T4.png)
 
-### Fluffin asennus
+## Fluffin asennus
 
 Seuraavaksi latasin fluffin: 
 
@@ -117,6 +117,7 @@ Seuraavaksi latasin ja aktivoin virtualenv:
     $ sudo apt-get -y install virtualenv
     $ virtualenv virtualenv/ -p python3 --system-site-packages
 aktivointi: 
+      
     $ source virtualenv/bin/activate
 
 Sitten lisäsin djangon: 

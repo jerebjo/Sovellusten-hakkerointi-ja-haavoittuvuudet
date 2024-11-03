@@ -8,7 +8,7 @@ RAM: 8 GB DDR4
 
 Näytönohjain: NVIVIA GeForce RTX 2050
 
-OS: Linux Debian (64-bit) 
+OS: Windows 10
 
  
 ## x) Lue/katso/kuuntele ja tiivistä

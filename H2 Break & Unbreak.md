@@ -1,4 +1,15 @@
 # H2 Break and unbreak
+
+## Käyttöympäristö
+
+Prosessori: AMD Ryzen 5 5500H
+
+RAM: 8 GB DDR4
+
+Näytönohjain: NVIVIA GeForce RTX 2050
+
+OS: Linux Debian (64-bit) 
+
  
 ## x) Lue/katso/kuuntele ja tiivistä
 

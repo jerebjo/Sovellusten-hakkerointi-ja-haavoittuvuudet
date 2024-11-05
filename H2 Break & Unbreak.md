@@ -73,9 +73,11 @@ Kokeilin syöttää samankaltaisen komennon käyttämällä name kohtaa userin t
 
 Sain ratkaistua tehtävän niin kuin kuvasta näkyy. 
 
-## Korjaa 010-staff-only haavoittuvuus lähdekoodista. Osoita testillä, että ratkaisusi toimii. 
+## Korjaa 010-staff-only haavoittuvuus lähdekoodista. Osoita testillä, että ratkaisusi toimii. (Päivitys 5.11.2024 klo. 19.33)
 
-En osannut korjata koodia :(
+Palasin tähän tehtävään ja muokkasin koodia Robinin tunnilla näyttämän ratkaisun mukaan. Eli avasin koodin microlla ja muokkasin sitä seuraavasti:
+
+
 
 ## Ratkaise dirfuzt-1 artikkelista Karvinen 2023: Find Hidden Web Directories - Fuzz URLs with ffuf. 
 

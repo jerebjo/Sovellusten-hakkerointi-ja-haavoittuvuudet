@@ -192,7 +192,7 @@ Katselin koodia ja sitten muokkaisin seuraavaa kohtaa:
 
 Testasin vielä korjautuiko vika: 
 
-
+![forbidden](Kuvat/forbidden.png)
 
 
 

@@ -188,6 +188,10 @@ Sitten avasin views-tiedoston:
 
 Katselin koodia ja sitten muokkaisin seuraavaa kohtaa: 
 
+![useristaff](Kuvat/useristaff.png)
+
+Testasin vielä korjautuiko vika: 
+
 
 
 

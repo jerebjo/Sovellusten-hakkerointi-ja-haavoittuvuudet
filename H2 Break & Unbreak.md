@@ -75,7 +75,11 @@ Sain ratkaistua tehtävän niin kuin kuvasta näkyy.
 
 ## Korjaa 010-staff-only haavoittuvuus lähdekoodista. Osoita testillä, että ratkaisusi toimii. (Päivitys 5.11.2024 klo. 19.33)
 
-Palasin tähän tehtävään ja muokkasin koodia Robinin tunnilla näyttämän ratkaisun mukaan. Eli avasin koodin microlla ja muokkasin sitä seuraavasti:
+Palasin tähän tehtävään ja muokkasin koodia [Robinin](https://askdatdude.github.io/school/answers/002-1.html) tunnilla näyttämän ratkaisun mukaan. Eli avasin koodin microlla ja muokkasin sitä seuraavasti:
+
+![newpin](Kuvat/newpin.png)
+
+Ja tässä vielä todistus aineisto: 
 
 
 

@@ -81,7 +81,7 @@ Palasin tähän tehtävään ja muokkasin koodia [Robinin](https://askdatdude.gi
 
 Ja tässä vielä todistus aineisto: 
 
-
+![ratkaisutulos](Kuvat/staffonlytoimii.png)
 
 ## Ratkaise dirfuzt-1 artikkelista Karvinen 2023: Find Hidden Web Directories - Fuzz URLs with ffuf. 
 
@@ -177,9 +177,20 @@ Kokelin syöttää sen sivun URL-osoitteen jatkoksi "127.0.0.1:8000/admin-consol
 
 ![admnconsole](Kuvat/adminconsole2.png)
       
-## e) Korjaa 020-your-eyes-only haavoittuvuus. Osoita testillä, että ratkaisusi toimii. 
+## e) Korjaa 020-your-eyes-only haavoittuvuus. Osoita testillä, että ratkaisusi toimii. (Päivitys 5.11.2024. klo. 20.36)
 
-En osannut korjata tätäkään :(
+Aloitin menemällä /logitin/hats polkuun. 
+
+     cd/challenges/020-your-eyes-only/logitin/hats/
+Sitten avasin views-tiedoston:
+
+     micro views.py
+
+Katselin koodia ja sitten muokkaisin seuraavaa kohtaa: 
+
+
+
+
 
 ## Lähteet
 - OWASP. 2021. OWASP Top 10: A01 Broken Access Control. Luettavissa: https://owasp.org/Top10/A01_2021-Broken_Access_Control/ Luettu: 31.10.2024.

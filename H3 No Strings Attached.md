@@ -12,3 +12,11 @@ OS: Windows 10
 
 ## a) Strings. Lataa ezbin-challenges.zip Aja 'passtr'. Selvitä oikea salasana 'strings' avulla. Selvitä myös lippu. (Ensisijaisesti katsomatta sorsia, jos osaat.) 
 
+Aloitin lataamalla zip-tiedoston: 
+
+      $ sudo apt-get update
+      $ wget https://terokarvinen.com/loota/yctjx7/ezbin-challenges.zip
+      unzip ezbin-challenges.zip
+
+
+

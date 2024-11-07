@@ -20,12 +20,7 @@ Aloitin lataamalla zip-tiedoston: (7.11.2024 klo. 18.30)
 
 Seuraavaksi selvitin mitä 'strings' tarkoittaa [ChatGPT:n](https://chatgpt.com/) avulla. Selvisi, että työkalun avulla voi selvittää mitä tekstijonoja tietty tiedosto sisältää. Ajoin seuraavan komennon: 
 
-            $ strings passtr.c
-
-
-![strings](Kuvat/strings.png)    
-
-Komennon avulla saatiin selville, että oikea salasana on 'sala-hakkeri-321' ja Kuvassa näkyy myös lippu, joka piti etsiä. (7.11.2024 klo. 18.08)
+            $ strings passtr
 
 ## b) Tee passtr.c -ohjelmasta uusi versio, jossa salasana ei näy suoraan sellaisenaan binääristä. Osoita testillä, että salasana ei näy. (Obfuskointi riittää.) 
 
@@ -33,7 +28,7 @@ Aloitin selvittämällä miltä koodi oikein näyttää. Suoritin komennon: (7.1
 
       $ micro passtr.c
 
-Seuraavaksi aloitin tutkimaan miten koodi oikeastaan toimii. Minulla ei ollut aluksi mitään hajua kuinka lähteä muokkaamaan koodia. Joten kysyin [ChatGPT:ltä](https://chat.openai.com/) mitä voisi kokeilla. Se ehdotti käyttää xor-operaatiota salasanan suojaamiseen, joten rupesin tutkimaan asiaa. Minulle selvisi, että xor-operaation tulos on aina joko 0 eli true tai 1 eli false. Netissä asian tutkiminen ei kuitenkaan auttanut minua juuri yhtään joten päätin turvuatua jälleen kerran [Chat GPT:een](https://chat.openai.com/) 
+Seuraavaksi aloitin tutkimaan miten koodi oikeastaan toimii. Minulla ei ollut aluksi mitään hajua kuinka lähteä muokkaamaan koodia. Joten kysyin [ChatGPT:ltä](https://chat.openai.com/) mitä voisi kokeilla. Se ehdotti käyttää xor-operaatiota salasanan suojaamiseen, joten rupesin tutkimaan asiaa. Netissä asian tutkiminen ei kuitenkaan auttanut minua juuri yhtään joten päätin turvautua jälleen kerran [Chat GPT:een](https://chat.openai.com/) (7.11.2024. klo. 21.48) Pienen tauon jälkeen aloitin korjaamaan koodia.
 
 ## Lähteet
 

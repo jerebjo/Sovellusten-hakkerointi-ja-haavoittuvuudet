@@ -18,5 +18,10 @@ Aloitin lataamalla zip-tiedoston:
       $ wget https://terokarvinen.com/loota/yctjx7/ezbin-challenges.zip
       unzip ezbin-challenges.zip
 
+Seuraavaksi selvitin mitä 'strings' tarkoittaa Chat GPT:n avulla. Selvisi, että työkalun avulla voi selvittää mitä tekstijonoja tietty tiedosto sisältää. Ajoin seuraavan komennon: 
 
+            $ strings passtr.c
+
+
+            
 

@@ -79,5 +79,5 @@ Yritin ajaa ohjelman uudestaan ja syöttää salasanan ja ohhoh sehän kävi:
 ## Lähteet
 
 - Karvinen. T. 12.4.2024. Tehtävänanto. h3 No strings attached. Luettavissa: https://terokarvinen.com/application-hacking/#h3-no-strings-attached Luettu: 7.11.2024
-- OpenAI. (2024). ChatGPT. Saatu 7.11.2024. Luettavissa: https://chat.openai.com/ Luettu 7.11.2024.
-- GeeksforGeeks. 1.7.2022. Buffer Overflow Attack with Example. Luettavissa: https://www.geeksforgeeks.org/buffer-overflow-attack-with-example/ Luettu: 8.11.2024.
+- OpenAI. (2024). ChatGPT. Saatu 7.11.2024. Luettavissa: https://chat.openai.com/ Luettu 7.11.2024. 
+  

@@ -45,7 +45,7 @@ Seuraavaksi aloitin tutkimaan miten koodi oikeastaan toimii. Minulla ei ollut al
 
 ![korjaus](Kuvat/Korjaus.png)
 
-##  Packd. Aja 'packd' paketista ezbin-challenges.zip. Mikä on salasana? Mikä on lippu? (Tämä tehtävä on hieman haastavampi. Kirjaa ylös kokeilemasi lähestymistavat ja keksimäsi hypoteesit. Toivottavasti pääset itse maaliin, mutta jos et, läpikävely paljastuu tunnilla...) 
+##  Packd. Aja 'packd' paketista ezbin-challenges.zip. Mikä on salasana? Mikä on lippu? (Tämä tehtävä on hieman haastavampi. Kirjaa ylös kokeilemasi lähestymistavat ja keksimäsi hypoteesit. 
 
 Aloitin ajamalla 'packd' ohjelman:
 
@@ -58,7 +58,7 @@ Kokeilin syöttää salasanaksi satunnaisia kirjaimia, mutta ei mennyt läpi. Se
 
 ![flag?](Kuvat/flagi.png) 
 
-Kaikkien sanojen seasta nuo pistivät silmään, joten päätin kokeilla ajaa ohjelman uudestaan ja kokeilla onneani. Salasana ei kuitenkaan toiminut, siinä on selvästi vain osa lippua ja salasanaa. Sitten yritin pitkään tutkia asiaa netistä sekä chatGPT:n avulla. Se jossain vaiheessa puhui "buffer overflowista" Luin siitä lisää ja yritin tämän jälkeen syöttää ohjelmaan yli sata satunnaista merkkiä ja sitten ajoin strings komennon uudelleen ja sain tälläisen: 
+Kaikkien sanojen seasta nuo pistivät silmään, joten päätin kokeilla ajaa ohjelman uudestaan ja kokeilla onneani. Salasana ei kuitenkaan toiminut, siinä on selvästi vain osa lippua ja salasanaa. Sitten yritin pitkään tutkia asiaa netistä sekä chatGPT:n avulla. Se jossain vaiheessa puhui "buffer overflowista" Luin siitä lisää ja yritin tämän jälkeen syöttää ohjelmaan paljon satunnaista merkkiä ja sitten ajoin 'strings' komennon uudelleen ja sain tälläisen: 
 
 ![Ananas?](Kuvat/Ananas.png)
 
@@ -70,3 +70,4 @@ Yritin ajaa ohjelman uudestaan ja syöttää salasanan ja ohhoh sehän kävi:
 
 - Karvinen. T. 12.4.2024. Tehtävänanto. h3 No strings attached. Luettavissa: https://terokarvinen.com/application-hacking/#h3-no-strings-attached Luettu: 7.11.2024
 - OpenAI. (2024). ChatGPT. Saatu 7.11.2024. Luettavissa: https://chat.openai.com/ Luettu 7.11.2024.
+- GeeksforGeeks. 1.7.2022. Buffer Overflow Attack with Example. Luettavissa: https://www.geeksforgeeks.org/buffer-overflow-attack-with-example/ Luettu: 8.11.2024.

@@ -56,6 +56,10 @@ Kokeilin syöttää salasanaksi satunnaisia kirjaimia, mutta ei mennyt läpi. Se
 
       $ strings packd
 
+![flag?](Kuvat/flagi.png) 
+
+Kaikkien sanojen seasta nuo pistivät silmään, joten päätin kokeilla ajaa ohjelman uudestaan ja kokeilla onneani. 
+
 ## Lähteet
 
 - Karvinen. T. 12.4.2024. Tehtävänanto. h3 No strings attached. Luettavissa: https://terokarvinen.com/application-hacking/#h3-no-strings-attached Luettu: 7.11.2024

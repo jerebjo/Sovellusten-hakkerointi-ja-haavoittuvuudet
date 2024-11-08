@@ -60,7 +60,7 @@ Kokeilin syöttää salasanaksi satunnaisia kirjaimia, mutta ei mennyt läpi. Se
 
 Kaikkien sanojen seasta nuo pistivät silmään, joten päätin kokeilla ajaa ohjelman uudestaan ja kokeilla onneani. Salasana ei kuitenkaan toiminut, siinä on selvästi vain osa lippua ja salasanaa. Sitten yritin pitkään tutkia asiaa netistä sekä chatGPT:n avulla. Se jossain vaiheessa puhui "buffer overflowista" Luin siitä lisää ja yritin tämän jälkeen syöttää ohjelmaan yli sata satunnaista merkkiä ja sitten ajoin strings komennon uudelleen ja sain tälläisen: 
 
-
+![Ananas?](Kuvat/Ananas.png)
 
 ## Lähteet
 

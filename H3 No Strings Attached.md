@@ -43,7 +43,18 @@ Kuvassa näkyy oikea salasana sekä lippu.
 
 Seuraavaksi aloitin tutkimaan miten koodi oikeastaan toimii. Minulla ei ollut aluksi mitään hajua kuinka lähteä muokkaamaan koodia. Joten kysyin [ChatGPT:ltä](https://chat.openai.com/) mitä voisi kokeilla. Se ehdotti käyttää xor-operaatiota salasanan suojaamiseen, joten rupesin tutkimaan asiaa. Netissä asian tutkiminen ei kuitenkaan auttanut minua juuri yhtään joten päätin turvautua jälleen kerran [Chat GPT:een](https://chat.openai.com/) (Jatkoin tehtävää 8.11.2024 klo.8.11.) En saanut ratkaistua tehtävää. Hyödynsin tehtävässä tällaista xor-salausta, mutta strings-komennolla pystyi silti löytämään lipun ja salasanan todella helposti.
 
-![korjaus](Kuvat/Korjaus-png)
+![korjaus](Kuvat/Korjaus.png)
+
+##  Packd. Aja 'packd' paketista ezbin-challenges.zip. Mikä on salasana? Mikä on lippu? (Tämä tehtävä on hieman haastavampi. Kirjaa ylös kokeilemasi lähestymistavat ja keksimäsi hypoteesit. Toivottavasti pääset itse maaliin, mutta jos et, läpikävely paljastuu tunnilla...) 
+
+Aloitin ajamalla 'packd' ohjelman:
+
+      $ cd challenges/packd/
+      $ ./packd
+      
+Kokeilin syöttää salasanaksi satunnaisia kirjaimia, mutta ei mennyt läpi. Seuraavaksi kokeilin mitä saisin irti strings-komennon avulla:
+
+      $ strings packd
 
 ## Lähteet
 

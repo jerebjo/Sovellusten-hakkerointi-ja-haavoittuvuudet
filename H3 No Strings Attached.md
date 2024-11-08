@@ -66,6 +66,7 @@ Yritin ajaa ohjelman uudestaan ja syöttää salasanan ja ohhoh sehän kävi:
 
 ![Ananassolved](Kuvat/ananasratkaisu.png)
 
+(Lopetin: 8.11.2024. klo. 18.15.)
 ## Lähteet
 
 - Karvinen. T. 12.4.2024. Tehtävänanto. h3 No strings attached. Luettavissa: https://terokarvinen.com/application-hacking/#h3-no-strings-attached Luettu: 7.11.2024

@@ -64,7 +64,7 @@ Kaikkien sanojen seasta nuo pistivät silmään, joten päätin kokeilla ajaa oh
 
 Yritin ajaa ohjelman uudestaan ja syöttää salasanan ja ohhoh sehän kävi:
 
-![Ananassolved](Kuvat/ananasratkaistu.png)
+![Ananassolved](Kuvat/ananasratkaisu.png)
 
 ## Lähteet
 

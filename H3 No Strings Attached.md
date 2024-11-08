@@ -28,6 +28,13 @@ Aloitin selvittämällä miltä koodi oikein näyttää. Suoritin komennon: (7.1
 
       $ micro passtr.c
 
+
+![Strings](Kuvat/strings2.png)
+
+Sieltä löytyi mielenkiintoisia sanoja! Voisikohan olla, että siinä on etsimäni salasana sekä flagi. Testasin vielä ajaa ohjelman ja syöttää salasanan.
+
+      $ ./passtr
+
 Seuraavaksi aloitin tutkimaan miten koodi oikeastaan toimii. Minulla ei ollut aluksi mitään hajua kuinka lähteä muokkaamaan koodia. Joten kysyin [ChatGPT:ltä](https://chat.openai.com/) mitä voisi kokeilla. Se ehdotti käyttää xor-operaatiota salasanan suojaamiseen, joten rupesin tutkimaan asiaa. Netissä asian tutkiminen ei kuitenkaan auttanut minua juuri yhtään joten päätin turvautua jälleen kerran [Chat GPT:een](https://chat.openai.com/) (7.11.2024. klo. 21.48) Pienen tauon jälkeen aloitin korjaamaan koodia.
 
 ## Lähteet

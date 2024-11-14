@@ -95,7 +95,8 @@ Aloitin importtaamalla passtr-tiedoston ghidran code browseriin. Seuraavaksi ava
 
 Yritin aluksi muokata pääohjelmaa, mutta tajusin, että ainut asia mitä siinä voi tehdä on vaihtaa muuttujien nimiä joten aloin etsimään tietoa netistä. Satuin löytämään tälläisen [Wolter, J. 2022](https://jorianwoltjer.com/blog/p/hacking/introduction-to-reverse-engineering-with-ghidra) - nettisivun, josta löysin tietoa kuinka muokata if-lausetta. Kohdassa "Patching assembly instructions" luki kuinka if lauseen ehtoja voi muokata vaihtamalla 'JNZ' eli "jump if not zero" muotoon 'JZ' eli "jump if zero", joten kokeilin tätä. Tässä muokattu versio: 
 
-![JZ](Kuvat/JZ.png)
+![JZ1](Kuvat/JZ1.png)
+
 
 
 ## Lähteet

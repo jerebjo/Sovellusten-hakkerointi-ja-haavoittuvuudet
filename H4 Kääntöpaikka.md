@@ -75,7 +75,9 @@ Seuraavaksi rupesin seuraamaan hieman [(John Hammond, 2022)](https://www.youtube
 
 ![pääohj](Kuvat/pääohj.png)
 
+Tässä vielä pääohjelma decompilattuna: 
 
+![pääohjelma](Kuvat/pääohjelma.png)
 
 ## Lähteet
 - Karvinen, T. 13.11.2024. Tehtävänanto. h4 Kääntöpaikka. Luettavissa: https://terokarvinen.com/application-hacking/#h4-kaantopaikka Luettu: 14.11.2024

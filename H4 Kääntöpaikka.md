@@ -95,9 +95,19 @@ Aloitin importtaamalla passtr-tiedoston ghidran code browseriin. Seuraavaksi ava
 
 Yritin aluksi muokata pääohjelmaa, mutta tajusin, että ainut asia mitä siinä voi tehdä on vaihtaa muuttujien nimiä joten aloin etsimään tietoa netistä. Satuin löytämään tälläisen [Wolter, J. 2022](https://jorianwoltjer.com/blog/p/hacking/introduction-to-reverse-engineering-with-ghidra) - nettisivun, josta löysin tietoa kuinka muokata if-lausetta. Kohdassa "Patching assembly instructions" luki kuinka if lauseen ehtoja voi muokata vaihtamalla 'JNZ' eli "jump if not zero" muotoon 'JZ' eli "jump if zero", joten kokeilin tätä. Tässä muokattu versio: 
 
-![JZ1](Kuvat/JZ1.png)
+![JZ2](Kuvat/Jz2.png)
 
+Sitten tallensin ohjelman ja kokeilin toimiiko se. Yritin ajaa ohjelmaa komennolla:
 
+        $ ./fixed-passtr
+
+Sain permission denied, joten annoin oikeudet. 
+
+        $ chmod +x fixed-passtr
+
+Sitten ajoin ohjelman uudelleen ja kokeilin syöttää ns "oikean salasanan":
+
+![passtr](Kuvat/passtrtesti.png)
 
 ## Lähteet
 - Karvinen, T. 13.11.2024. Tehtävänanto. h4 Kääntöpaikka. Luettavissa: https://terokarvinen.com/application-hacking/#h4-kaantopaikka Luettu: 14.11.2024

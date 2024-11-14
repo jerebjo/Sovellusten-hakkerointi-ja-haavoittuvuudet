@@ -79,7 +79,7 @@ Tässä vielä pääohjelma decompilattuna:
 
 ![pääohjelma](Kuvat/pääohjelma.png)
 
-Kun lähdin miettimään muuttujien nimiä ensimmäisenä silmään pisti 'local_28' Mielestäni tämä voisi olla esim. 'password'. 'iVar1' on muuttuja joka tarkastaa funktiossa, että onko salasana oikein vai ei. Nimesin sen 'compare'. Tältä näyttää korjattu koodi: 
+Kun lähdin miettimään muuttujien nimiä ensimmäisenä silmään pisti 'local_28' Mielestäni tämä voisi olla esim. 'password' tai syöte eli 'input'. 'iVar1' on muuttuja joka tarkastaa funktiossa, että onko salasana oikein vai ei. Nimesin sen 'compare'. Tältä näyttää korjattu koodi: 
 
 ![packdkorjattu](Kuvat/packdkorjaus.png)
 

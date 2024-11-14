@@ -1,1 +1,65 @@
+# H4 Kääntöpaikka
 
+## Käyttöympäristö
+
+Prosessori: AMD Ryzen 5 5500H
+
+RAM: 8 GB DDR4
+
+Näytönohjain: NVIVIA GeForce RTX 2050
+
+OS: Windows 10
+
+## x) Lue/katso/kuuntele ja tiivistä. (Tässä x-alakohdassa ei tarvitse tehdä testejä tietokoneella, vain lukeminen tai kuunteleminen ja tiivistelmä riittää. Tiivistämiseen riittää muutama ranskalainen viiva.) 
+
+Katsoin [(John Hammond, 2022)](https://www.youtube.com/watch?v=oTD_ki86c9I) -videon käänteissuunnittelusta ghidralla. 
+
+- Ghidraa on avoimen lähdekoodin ohjelmistopaketti jota käytetään ohjelmien analysointiin ja käänteiseen suunnitteluun.
+- Ghidrassa on graafinen käyttölittymä, jota vaikuttaisi olevan suhteellisen helppo käyttää, vaikka siinä on paljon eri ominaisuuksia.
+
+## a) Asenna Ghidra. 
+
+Aloitin lataamalla Ghidran lähdekoodin githubista ja siirryin 'Downloads' - kansioon:
+
+    $ cd Downloads
+
+Siirsin ghidra zip-tiedoston käyttäjä kansioon ja purin sen:
+
+    $ mv ghidra-master.zip /home/jereb/
+    $ unzip ghidra-master.zip
+
+Seuraavaksi tarkistin java version.
+
+    $ java -version
+
+Sain kuitenkin 'command not found' Joten latasin JDK 17:
+
+    $ sudo apt-get update
+    $ sudo apt install openjdk-17-jdk
+
+Yritin käynnistää ohjelmaa mutta en ollut asentanut vielä gradlea joten asensin sen:
+
+    $ sudo apt install gradle
+
+Seuraavaksi yritin buildata gradlella:
+
+    $ ./gradlew build
+
+Se ei kuitenkaan onnistunut joten katsoin error logeja ja kysyin ChatGpt:ltä apua.  Sitten Asensin python3-pipin, tein FlatRepon ja nano-tiedoston 'ghidra-repos-config' ja linkitin sinne mavenRepon url:än. En siltikään saanut buildausta toimimaan, joten aloin miettimään onko minulla oikea ghidran versio ladattuna. Päätin poistaa nykyisen ja ladata uuden sillä huomasin tehtävän annon vinkeissä olevan versio 11.1.2: 
+
+    $ wget https://github.com/NationalSecurityAgency/ghidra/releases/download/Ghidra_11.1.2_build/ghidra_11.1.2_PUBLIC_20240709.zip 
+    $ unzip ghidra_11.1.2_PUBLIC_20240709.zip
+
+Sitten kokeilin käynnistää ghidran:
+
+    $ cd ghidra_11.1.2_PUBLIC_20240709
+    $ ./ghidraRun
+
+Sain ohjelman vihdoin käyntiin aivan turhan säätämisen jälkeen: 
+
+![ghidra](Kuvat/ghidra.png)
+
+    
+
+
+    

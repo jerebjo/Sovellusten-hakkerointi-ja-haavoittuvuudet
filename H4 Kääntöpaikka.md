@@ -194,11 +194,13 @@ Tässä vielä uudelleen nimetyt muuttujat:
 
 ![muuttujat](Kuvat/muuttujat1.png)
 
-Kuvasta näkyy, että 'cVar2' = 'p' , joten se on ainakin yksi oikea merkki salasanasta. Ohjelma näyttäisi toimivan siten, että se vertaa käyttäjän syöttämiä merkkejä oikeisiin merkkeihin ja sen kautta päättää tulostaako ohjelma true vai false. Jos ohjelma palauttaa arvon 0 se tulostaa "Yes %s is correct!\n" jos se palauttaa arvon 1 ohjelma tulostaa syötteen "No %s is not correct.\n". Koodia tutkimalla selviää, että siellä on rivi "cVar2 = "password1"[lVar4 + 1]" jota ilmeisesti verrataan käyttäjän syötteeseen merkki kerrallaan jonka perusteella ohjelma päättää tulostuksen. Oikea salasana siis on luultavasti tuo "password1" Päätin kokeilla sitä:
+Kuvasta näkyy, että 'expected_char' = 'p' , joten se on ainakin yksi oikea merkki salasanasta. Ohjelma näyttäisi toimivan siten, että se vertaa käyttäjän syöttämiä merkkejä oikeisiin merkkeihin ja sen kautta päättää tulostaako ohjelma true vai false. Jos ohjelma palauttaa arvon 0 se tulostaa "Yes %s is correct!\n" jos se palauttaa arvon 1 ohjelma tulostaa syötteen "No %s is not correct.\n". Koodia tutkimalla selviää, että siellä on rivi "cVar2 = "password1"[index + 1]" jota ilmeisesti verrataan käyttäjän syötteeseen merkki kerrallaan jonka perusteella ohjelma päättää tulostuksen. Oikea salasana siis on luultavasti tuo "password1" Päätin kokeilla sitä:
 
 ![password1](Kuvat/password1.png)
 
-Ei ollut oikein. 
+Ei ollut oikein. Tässä kohtaan olin pitkään jumissa ja en oikein tiennyt mitä tehdä. Turhautuneena kokeilin erilaisia salasanoja, mutta mikään ei toiminut. Sitten tovin pään hakkauksen jälkeen onnistuin vahingossa saamaan oikean salasanan: 
+
+![oikearatkaisu](Kuvat/oikearatkaisu.png)
 
 ## Lähteet
 - Karvinen, T. 13.11.2024. Tehtävänanto. h4 Kääntöpaikka. Luettavissa: https://terokarvinen.com/application-hacking/#h4-kaantopaikka Luettu: 14.11.2024

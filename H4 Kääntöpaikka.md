@@ -123,6 +123,9 @@ Aloitin lataamalla (NoraCodes) zip-tiedoston. (15.11.2024)
         $ mv crackmes-master.zip /home/jereb
         $ unzip crackmes-master.zip
 
+
+### crackme01
+
 Seuraavaksi siirryin tehtävä kansioon ja suoritin komennon 'make crackme01', jolla sain tehtyä ohjelman 'crackme01.64' Päätin ajaa ohjelman:
 
         $ ./crackme01.64
@@ -137,6 +140,23 @@ Ei ollut oikea ratkaisu, joten kokeilin mitä saan strings komennolla.
 
 ![pw1](Kuvat/pw1.png)
 
+Sieltä löytyi mahdollinen salasana, joten kokeilin toimiiko se: 
+
+![pw1correct](Kuvat/pw1correct.png)
+
+### Nora crackme01e 
+
+Aloitin Tekemällä ohjelmasta ajokelpoisen:
+
+        $ make crackme01e
+
+Seuraavaksi ajoin ohjelman: 
+
+        $ ./crackme01e.64
+
+Sain vastaukseksi saman kuin ensimmäisessäkin eli "Need exactly one argument", joten päätin kokeilla uudelleen stringsiä:
+
+![crackme](Kuvat/crackme.png)
 
 ## Lähteet
 - Karvinen, T. 13.11.2024. Tehtävänanto. h4 Kääntöpaikka. Luettavissa: https://terokarvinen.com/application-hacking/#h4-kaantopaikka Luettu: 14.11.2024

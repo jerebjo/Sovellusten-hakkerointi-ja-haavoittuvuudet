@@ -12,7 +12,7 @@ OS: Windows 10
 
 ## x) Lue/katso/kuuntele ja tiivistä. (Tässä x-alakohdassa ei tarvitse tehdä testejä tietokoneella, vain lukeminen tai kuunteleminen ja tiivistelmä riittää. Tiivistämiseen riittää muutama ranskalainen viiva.) 
 
-Katsoin [(John Hammond, 2022)](https://www.youtube.com/watch?v=oTD_ki86c9I) -videon käänteissuunnittelusta ghidralla. 
+Katsoin [(John Hammond, 2022)](https://www.youtube.com/watch?v=oTD_ki86c9I) -videon käänteissuunnittelusta ghidralla. (14.11.2024)
 
 - Ghidraa on avoimen lähdekoodin ohjelmistopaketti jota käytetään ohjelmien analysointiin ja käänteiseen suunnitteluun.
 - Ghidrassa on graafinen käyttölittymä, jota vaikuttaisi olevan suhteellisen helppo käyttää, vaikka siinä on paljon eri ominaisuuksia.
@@ -116,6 +116,18 @@ Kokeilin vielä antaako ohjelma lipun millä tahansa muulla salasanalla:
 Näytti toimivan :D
 
 ## d) Nora CrackMe: Käännä binääreiksi Tindall 2023: NoraCodes / crackmes. Lue README.md: älä katso lähdekoodeja, ellet tarvitse niitä apupyöriksi. Näissä tehtävissä binäärejä käänteismallinnetaan. Binäärejä ei muokata, koska muutenhan jokaisen tehtävän ratkaisu olisi vaihtaa palautusarvoksi "return 0". 
+
+Aloitin lataamalla (NoraCodes) zip-tiedoston. (15.11.2024)
+
+        $ wget https://github.com/NoraCodes/crackmes/archive/refs/heads/master.zip
+        $ mv crackmes-master.zip /home/jereb
+        $ unzip crackmes-master.zip
+
+Seuraavaksi siirryin tehtävä kansioon ja suoritin komennon 'make crackme01', jolla sain tehtyä ohjelman 'crackme01.64' Päätin ajaa ohjelman:
+
+        $ ./crackme01.64
+
+Sain tulokseksi "Need exactly one argument", joten yritin syöttää siihen perään jotain sanoja. 
 
 ## Lähteet
 - Karvinen, T. 13.11.2024. Tehtävänanto. h4 Kääntöpaikka. Luettavissa: https://terokarvinen.com/application-hacking/#h4-kaantopaikka Luettu: 14.11.2024

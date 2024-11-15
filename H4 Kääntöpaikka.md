@@ -158,6 +158,10 @@ Sain vastaukseksi saman kuin ensimmäisessäkin eli "Need exactly one argument",
 
 ![crackme](Kuvat/crackme.png)
 
+Sieltä löytyi jotain, mutta en usko, että se on oikea. Testasin kuitenkin: 
+
+![crackrun](Kuvat/crackrun.png)
+
 ## Lähteet
 - Karvinen, T. 13.11.2024. Tehtävänanto. h4 Kääntöpaikka. Luettavissa: https://terokarvinen.com/application-hacking/#h4-kaantopaikka Luettu: 14.11.2024
 - NationalSecurityAgency. 9.7.2024. Ghidra 11.1.2. Luettavissa:  https://github.com/NationalSecurityAgency/ghidra/releases/tag/Ghidra_11.1.2_build Luettu: 14.11.2024.

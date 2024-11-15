@@ -192,7 +192,7 @@ Ajoin ohjelman ja ohjelma oli samanlainen kuin kaksi aiempaakin ohjelmaa. Seuraa
 Tässä vielä uudelleen nimetyt muuttujat: 
 
 
-![muuttujat](Kuvat/muuttujat.png)
+![muuttujat](Kuvat/muuttujat1.png)
 
 Kuvasta näkyy, että 'cVar2' = 'p' , joten se on ainakin yksi oikea merkki salasanasta. Ohjelma näyttäisi toimivan siten, että se vertaa käyttäjän syöttämiä merkkejä oikeisiin merkkeihin ja sen kautta päättää tulostaako ohjelma true vai false. Jos ohjelma palauttaa arvon 0 se tulostaa "Yes %s is correct!\n" jos se palauttaa arvon 1 ohjelma tulostaa syötteen "No %s is not correct.\n". Koodia tutkimalla selviää, että siellä on rivi "cVar2 = "password1"[lVar4 + 1]" jota ilmeisesti verrataan käyttäjän syötteeseen merkki kerrallaan jonka perusteella ohjelma päättää tulostuksen. Oikea salasana siis on luultavasti tuo "password1" Päätin kokeilla sitä:
 

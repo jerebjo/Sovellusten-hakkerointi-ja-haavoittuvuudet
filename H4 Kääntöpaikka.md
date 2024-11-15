@@ -172,7 +172,26 @@ Koodistä voisi nyt päätellä, että ohjelma vertaa käyttäjän inputtia stri
 
 Ei näyttänyt toimivan. Sain tulosteeksi "bash: !paas.k: event not found" Mielestäni tämä oli outoa, sillä ohjelmassa lukee selvästi, että se vertaa käyttäjän syötettä ""slm!paas.k"". Päätin kysyä chatGPT 3.5 kielimallilta, että mitä tämä "bash: !paas.k: event not found" tarkoittaa. Tekoälyn mukaan bash käsittelee "!" erikoismerkiksi. Tämän takia se yrittää estää suoritettua komentoa. Tekoäly ehdotti kokeilla "slm\!paas.k", joten kokeilin sitä:
 
-![01eratkaisu](Kuvat/01eratkaisu-png)
+![01eratkaisu](Kuvat/01eratkaisu.png)
+
+Ja sieltä löytyi oikea ratkaisu!
+
+### Nora crackme02. Nimeä pääohjelman muuttujat käänteismallinnetusta binääristä ja selitä ohjelman toiminta. Ratkaise binääri. 
+
+Aloitin luomalla crackme02 tiedostosta ajettavan ohjelman: 
+
+        $ make crakcme02
+
+Ajoin ohjelman ja ohjelma oli samanlainen kuin kaksi aiempaakin ohjelmaa. Seuraavaksi siirryin ghidran puolelle. Importtasin crackme02 ja etsin main funktion. Tuijottelin koodia jonkun aikaa ja en oikein osannut nimetä muuttujia, joten kysyin ChatGPT 3.5 kielimallilta, että mitä muuttujia ohjelmassa on. Sain vastaukseksi:
+
+- cVar1 = Yksittäinen merkki syötteestä, jota verrataan salasanan merkkeihin
+- cVar2 = Salasana oikea merkki, joka toimii vertailuiarvona
+- uVar3 = 64-bittinen muuttuja, joka palauttaa ohjelman lopuksi arvot 0 tai 0xffffffff
+- lVar4 = Laskuri, joka pitää kirjaa kuinka monta merkkiå on verrattu.
+
+![vertailu](Kuvat/vertailu.png)
+
+
 ## Lähteet
 - Karvinen, T. 13.11.2024. Tehtävänanto. h4 Kääntöpaikka. Luettavissa: https://terokarvinen.com/application-hacking/#h4-kaantopaikka Luettu: 14.11.2024
 - NationalSecurityAgency. 9.7.2024. Ghidra 11.1.2. Luettavissa:  https://github.com/NationalSecurityAgency/ghidra/releases/tag/Ghidra_11.1.2_build Luettu: 14.11.2024.

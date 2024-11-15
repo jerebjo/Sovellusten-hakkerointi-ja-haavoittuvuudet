@@ -187,10 +187,13 @@ Ajoin ohjelman ja ohjelma oli samanlainen kuin kaksi aiempaakin ohjelmaa. Seuraa
 - cVar1 = Yksittäinen merkki syötteestä, jota verrataan salasanan merkkeihin
 - cVar2 = Salasana oikea merkki, joka toimii vertailuiarvona
 - uVar3 = 64-bittinen muuttuja, joka palauttaa ohjelman lopuksi arvot 0 tai 0xffffffff
-- lVar4 = Laskuri, joka pitää kirjaa kuinka monta merkkiå on verrattu.
+- lVar4 = Laskuri, joka pitää kirjaa kuinka monta merkkiä on verrattu.
 
 ![vertailu](Kuvat/vertailu.png)
 
+Kuvasta näkyy, että 'cVar2' = 'p' , joten se on ainakin yksi oikea merkki salasanasta. Ohjelma näyttäisi toimivan siten, että se vertaa käyttäjän syöttämiä merkkejä oikeisiin merkkeihin ja sen kautta päättää tulostaako ohjelma true vai false. Jos ohjelma palauttaa arvon 0 se tulostaa "Yes %s is correct!\n" jos se palauttaa arvon 1 ohjelma tulostaa syötteen "No %s is not correct.\n". Koodia tutkimalla selviää, että siellä on rivi "cVar2 = "password1"[lVar4 + 1]" jota ilmeisesti verrataan käyttäjän syötteeseen merkki kerrallaan jonka perusteella ohjelma päättää tulostuksen. Oikea salasana siis on luultavasti tuo "password1" Päätin kokeilla sitä:
+
+![password1](Kuvat/password1.png)
 
 ## Lähteet
 - Karvinen, T. 13.11.2024. Tehtävänanto. h4 Kääntöpaikka. Luettavissa: https://terokarvinen.com/application-hacking/#h4-kaantopaikka Luettu: 14.11.2024

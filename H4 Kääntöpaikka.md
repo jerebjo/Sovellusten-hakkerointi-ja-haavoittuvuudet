@@ -129,6 +129,15 @@ Seuraavaksi siirryin tehtävä kansioon ja suoritin komennon 'make crackme01', j
 
 Sain tulokseksi "Need exactly one argument", joten yritin syöttää siihen perään jotain sanoja. 
 
+![mitää](Kuvat/mitä.png)
+
+Ei ollut oikea ratkaisu, joten kokeilin mitä saan strings komennolla. 
+
+        $ strings crackme01.64
+
+![pw1](Kuvat/pw1.png)
+
+
 ## Lähteet
 - Karvinen, T. 13.11.2024. Tehtävänanto. h4 Kääntöpaikka. Luettavissa: https://terokarvinen.com/application-hacking/#h4-kaantopaikka Luettu: 14.11.2024
 - NationalSecurityAgency. 9.7.2024. Ghidra 11.1.2. Luettavissa:  https://github.com/NationalSecurityAgency/ghidra/releases/tag/Ghidra_11.1.2_build Luettu: 14.11.2024.

@@ -18,10 +18,10 @@ Aloitin lataamalla 'lab1' zip-tiedoston ja siirsin sen käyttäjä kansioon. Sen
 
 ![ajotesti](Kuvat/ajotesti.png)
 
-En oikein ymmärtänyt mitä tuo tarkoitti, joten aloin debuggamaan ohjelmaa tunnilla käytyjen ohjeiden mukaan. Avasin debuggaus ohjelman komennolla:
+En oikein ymmärtänyt mitä tuo tarkoitti, joten aloin debuggamaan ohjelmaa tunnilla käytyjen ohjeiden mukaan. Käänsin ohjelman ja avasin debuggaus ohjelman komennoilla:
 
-    $ gdb gdb_example1
-    $ list
-
-
+    $ gcc gdb_example1.c -g -Wall -Werror -o example1-gdb
+    $ gdb example1-gdb 
     
+   
+

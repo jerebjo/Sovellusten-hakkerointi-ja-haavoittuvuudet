@@ -8,7 +8,7 @@ RAM: 8 GB DDR4
 
 Näytönohjain: NVIVIA GeForce RTX 2050
 
-OS: Windows 10
+OS: Windows 10 
 
 ## x) Lue/katso/kuuntele ja tiivistä. (Tässä x-alakohdassa ei tarvitse tehdä testejä tietokoneella, vain lukeminen tai kuunteleminen ja tiivistelmä riittää. Tiivistämiseen riittää muutama ranskalainen viiva.) 
 

@@ -56,6 +56,16 @@ Eli jos viestin arvo on "NULL" ohjelma palauttaa sen oikein eikä hajoa:
 
 ![lab1fixed](Kuvat/fixedcode.png)
 
+## b) Lab2. Selvitä salasana ja lippu + kirjoita raportti siitä miten aukesi. lab2.zip 
+
+Latasin ensin tiedoston ja purin zip-tiedoston. Seuraavaksi käänsin ohjelman ja ajoin debuggerin: 
+
+    $ gcc passtr.c -g -Wall -Werror -o passtr1
+    $ gdb passtr1
+    $ layout split
+
+![layoutsplit2](Kuvat/lsplit.png)
+
 ## Lähteet
 
 - Samer,M. 30.8.2023. Medium. Understanding Segmentation Fault in C: Causes and Solutions. Luettavissa: https://medium.com/@mohamedsamer1532/understanding-segmentation-fault-in-c-causes-and-solutions-ed3d1c159d76 Luettu: 22.11.2024. 

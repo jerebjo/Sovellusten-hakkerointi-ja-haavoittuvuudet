@@ -43,3 +43,19 @@ Tässä kohtaan päätin vielä siirtyä eteenpäin ja katsoa mitä tapahtuu.
 Ohjelma antaa omituisia arvoja joita minulla oli hankaluuksia ymmärtää. Selasin silti vielä eteenpäin: 
 
 ![ohjelman lopetus](Kuvat/ohjelmanlopetus.png)
+
+Jos ymmärrän kuvaa oikein niin ongelma on rivillä 7, joten lähdin tutkimaan koodia micro editorissa: 
+
+    $ micro gdb_example1.c
+
+Päätin lähteä googlaamaan mitä 'segmentation fault' oikein tarkoittaa. (Samer, M. 2023) mukaan segmentation fault on virhe kun ohjelma yrittää päästä käsiksi muistiin johon sillä ei ole oikeuksia. Koska ohjelmassa on annettu 'bad_messagen' arvoksi 'NULL' ohjelma ei toimi oletetulla tavalla. Tein koodiin seuraavat korjaukset: 
+
+![virheviesti](Kuvat/virheviesti.png)
+
+Eli jos viestin arvo on "NULL" ohjelma palauttaa sen oikein eikä hajoa: 
+
+![lab1fixed](Kuvat/fixedcode.png)
+
+## Lähteet
+
+- Samer,M. 30.8.2023. Medium. Understanding Segmentation Fault in C: Causes and Solutions. Luettavissa: https://medium.com/@mohamedsamer1532/understanding-segmentation-fault-in-c-causes-and-solutions-ed3d1c159d76 Luettu: 22.11.2024. 

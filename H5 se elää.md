@@ -23,5 +23,14 @@ En oikein ymmärtänyt mitä tuo tarkoitti, joten aloin debuggamaan ohjelmaa tun
     $ gcc gdb_example1.c -g -Wall -Werror -o example1-gdb
     $ gdb example1-gdb 
     
-   
+![list](Kuvat/examplelist.png)
+
+Aloitin debuggauksen siirtymällä 'layout split' näkymään, jossa sitten pläräsin koodia eteenpäin: 
+
+    $ break main
+    $ run
+    $ p(char*) $(esim rdi)
+    $ nexti
+
+![error](Kuvat/outoerror.png)
 

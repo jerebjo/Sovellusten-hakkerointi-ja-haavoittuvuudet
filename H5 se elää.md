@@ -32,5 +32,8 @@ Aloitin debuggauksen siirtymällä 'layout split' näkymään, jossa sitten plä
     $ p(char*) $(esim rdi)
     $ nexti
 
+Mennessäni eteenpäin ohjelmassa huomasin yhden error viestin joka näkyy kuvassa: 
+
 ![error](Kuvat/outoerror.png)
 
+![error2](Kuvat/goodmessage.png) 

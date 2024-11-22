@@ -14,8 +14,14 @@ OS: Windows 10
 
 Aloitin lataamalla 'lab1' zip-tiedoston ja siirsin sen käyttäjä kansioon. Sen jälkeen ihan ensimmäiseksi kokeilin mitä ohjelma tekee kun sen ajaa: 
 
-    $ ./gbd_example1
+    $ ./gdb_example1
 
+![ajotesti](Kuvat/ajotesti.png)
+
+En oikein ymmärtänyt mitä tuo tarkoitti, joten aloin debuggamaan ohjelmaa tunnilla käytyjen ohjeiden mukaan. Avasin debuggaus ohjelman komennolla:
+
+    $ gdb gdb_example1
+    $ list
 
 
     

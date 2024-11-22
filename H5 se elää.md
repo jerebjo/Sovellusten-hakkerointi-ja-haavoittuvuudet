@@ -36,4 +36,10 @@ Mennessäni eteenpäin ohjelmassa huomasin yhden error viestin joka näkyy kuvas
 
 ![error](Kuvat/outoerror.png)
 
+Tässä kohtaan päätin vielä siirtyä eteenpäin ja katsoa mitä tapahtuu.
+
 ![error2](Kuvat/goodmessage.png) 
+
+Ohjelma antaa omituisia arvoja joita minulla oli hankaluuksia ymmärtää. Selasin silti vielä eteenpäin: 
+
+![ohjelman lopetus](Kuvat/ohjelmanlopetus.png)

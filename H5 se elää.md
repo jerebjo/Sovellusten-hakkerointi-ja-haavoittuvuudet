@@ -78,7 +78,34 @@ Aloitin tehtävän kääntämällä sen ja avaamalla ohjelman debuggerissa:
     $ gdb crackme03
     $ list
 
-![crackme](Kuvat/crackmeavaus.png)
+Tämän jälkeen siirryin layout split näkymään ja laitoin breakpointin 'main'-funktioon ja selasin koodia rivi kerrallaan. 
+
+    $ layout split
+    $ break main
+    $ run 
+
+Selasin koodia pitkään kokeilemalla eri asioita, mutta mikään ei tuntunut antavan vihjeitä. Huomasin, että koodissa on kohta, jossa lukee salasanan oikea pituus ja merkkijono mihin salasanaa verrataan: 
+
+![lab3](Kuvat/lab3.png)
+
+Koodissa oli myös maski ja arvot joiden perusteella merkkijono muutetaan oikeaksi salasanaksi. Lähdin ihmettelemään ASCII taulukkoa. Yritin verrata ASCII-taulukossa olevia arvoja merkkijonoon, joka oli kirjoitettu koodiin 'lAmBdA'. Maskissa oli arvoja ja ne olivat '{2, 3, 2, 3, 5}' Arvelin, että ne lisätään alkuperäiseen arvoon, joten kokeilin lisätä ne merkkijonoon ja siten muodostaa uuden: 
+
+![ASCII](Kuvat/ASCIItable.png)
+
+l = 108 + 2 = 110 "n"
+A = 65 + 3 = 68 "D" 
+m = 109 + 2 = 111 "o"
+B = 66 + 3 = 69 "E"
+d = 100 + 5 = 105 "i"
+A = 65 +3 = 68 "D"
+
+Eli maskattu salasana olisi 'nDoEiD'
+
+
+
+
+
+
 
 
 

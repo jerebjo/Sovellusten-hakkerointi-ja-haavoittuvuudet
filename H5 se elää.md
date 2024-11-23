@@ -112,12 +112,26 @@ Oikea salasana oli siis 'nDoEiA'- koska viimeistä kirjainta ei maskattu. En osa
 ### Tehtävä 4.
 
 
+Tämän tehtävän aloitin testaamalla mitä koodi tekee ajessa. No idea oli samankaltainen kuin edellisessäkin, eli syötetään ohjelman ajon yhteydessä salasana. Lähdin liikkeelle siitä että käänsin koodin ja avasin debuggerin: 
 
+    $ gcc crackme04.c -g -Well -Werror -o crackme04
+    $ gdb crackme04
 
+Seuraavaksi siirryin layout split näkymään: 
+
+    $ layout split
+    $ break main
+    $ run
+
+Liikuin koodia eteenpäin rivi kerrallaan 'nexti' komennolla ja tarkastelin eri arvoja printtaamalla ne, mutta en onnistunut saamaan ohjelmasta juuri mitään irti. Leikin ohjelmalla vielä pari tuntia ja lopulta päätin, että tämä riittää minulle. Katsotaan tunnilla miten tämä lopulta ratkaistiin. 
+
+![lab4](Kuvat/kokeilu.png)
+    
 
 
 
 ## Lähteet
 
+- Iso-Anttila, L. Tehtävänanto. h5 Se elää! Luettavissa: https://terokarvinen.com/application-hacking/#h5-se-elaa Luettu: 22.11.2024
 - Samer,M. 30.8.2023. Medium. Understanding Segmentation Fault in C: Causes and Solutions. Luettavissa: https://medium.com/@mohamedsamer1532/understanding-segmentation-fault-in-c-causes-and-solutions-ed3d1c159d76 Luettu: 22.11.2024.
 - 23.11.2024. ASCII Table. Luettavissa: https://www.asciitable.com/ Luettu: 23.11.2024.

@@ -70,7 +70,17 @@ Yritin pitkään mennä koodissa eteempäin ja ajaa esim. 'p(char*) $rax', mutta
 
 ![lab2](Kuvat/lab2.png)
 
-## 
+## c) Lab3. Kokeile Nora Crackmes harjoituksia tehtävä 3 ja 4 ja loput vapaaehtoisia. Tindall 2023: NoraCodes / crackmes. 
+
+Aloitin tehtävän kääntämällä sen ja avaamalla ohjelman debuggerissa:
+
+    $ gcc crackme03.64 -g -Wall -o crackme03
+    $ gdb crackme03
+    $ list
+
+![crackme](Kuvat/crackmeavaus.png)
+
+
 
 ## Lähteet
 

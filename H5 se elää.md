@@ -66,6 +66,12 @@ Latasin ensin tiedoston ja purin zip-tiedoston. Seuraavaksi käänsin ohjelman j
 
 ![layoutsplit2](Kuvat/lsplit.png)
 
+Yritin pitkään mennä koodissa eteempäin ja ajaa esim. 'p(char*) $rax', mutta en millään saanut mitään järkevää. Sain kyllä tuolla tavalla esiin "sala-hakkeri-321", mutta, en usko tehtävässä haettiin aivan sitä. Arvelin, että tällä tehtävällä on jotain tekemistä ASCII-taulukon kanssa, mutta en osannut poimia debuggerin avulla oikeita arvoja joita verrata taulukkoon. Jätin tehtävän tähän...
+
+![lab2](Kuvat/lab2.png)
+
+## 
+
 ## Lähteet
 
 - Samer,M. 30.8.2023. Medium. Understanding Segmentation Fault in C: Causes and Solutions. Luettavissa: https://medium.com/@mohamedsamer1532/understanding-segmentation-fault-in-c-causes-and-solutions-ed3d1c159d76 Luettu: 22.11.2024. 

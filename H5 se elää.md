@@ -10,7 +10,7 @@ Näytönohjain: NVIVIA GeForce RTX 2050
 
 OS: Windows 10
 
-## a) Lab1. Tutkiminen mikä on ohjelmassa vialla ja miten se korjataan. lab1.zip 
+## a) Lab1. Tutkiminen mikä on ohjelmassa vialla ja miten se korjataan. lab1.zip (22.11.2024)
 
 Aloitin lataamalla 'lab1' zip-tiedoston ja siirsin sen käyttäjä kansioon. Sen jälkeen ihan ensimmäiseksi kokeilin mitä ohjelma tekee kun sen ajaa: 
 
@@ -72,6 +72,8 @@ Yritin pitkään mennä koodissa eteempäin ja ajaa esim. 'p(char*) $rax', mutta
 
 ## c) Lab3. Kokeile Nora Crackmes harjoituksia tehtävä 3 ja 4 ja loput vapaaehtoisia. Tindall 2023: NoraCodes / crackmes. 
 
+### Tehtävä 3.
+
 Aloitin tehtävän kääntämällä sen ja avaamalla ohjelman debuggerissa:
 
     $ gcc crackme03.64 -g -Wall -o crackme03
@@ -86,9 +88,9 @@ Tämän jälkeen siirryin layout split näkymään ja laitoin breakpointin 'main
 
 Selasin koodia pitkään kokeilemalla eri asioita, mutta mikään ei tuntunut antavan vihjeitä. Huomasin, että koodissa on kohta, jossa lukee salasanan oikea pituus ja merkkijono mihin salasanaa verrataan: 
 
-![lab3](Kuvat/lab3.png)
+![lab3](Kuvat/lab3.png) (23.11.2024) 
 
-Koodissa oli myös maski ja arvot joiden perusteella merkkijono muutetaan oikeaksi salasanaksi. Lähdin ihmettelemään ASCII taulukkoa. Yritin verrata ASCII-taulukossa olevia arvoja merkkijonoon, joka oli kirjoitettu koodiin 'lAmBdA'. Maskissa oli arvoja ja ne olivat '{2, 3, 2, 3, 5}' Arvelin, että ne lisätään alkuperäiseen arvoon, joten kokeilin lisätä ne merkkijonoon ja siten muodostaa uuden: 
+Koodissa oli myös maski ja arvot joiden perusteella merkkijono muutetaan oikeaksi salasanaksi. Lähdin ihmettelemään ASCII-taulukkoa. Yritin verrata ASCII-taulukossa olevia arvoja merkkijonoon, joka oli kirjoitettu koodiin 'lAmBdA'. Maskissa oli arvoja ja ne olivat '{2, 3, 2, 3, 5}' Arvelin, että ne lisätään alkuperäiseen arvoon, joten kokeilin lisätä ne merkkijonoon ja siten muodostaa uuden: 
 
 ![ASCII](Kuvat/ASCIItable.png)
 
@@ -105,7 +107,9 @@ Sitten ajoin ohjelman ja päätin kokeilla. Se ei ollut oikein, joten aloin miet
 
 ![lab3ratkaisu](Kuvat/lab3solution.png) 
 
+Oikea salasana oli siis 'nDoEiA'- koska viimeistä kirjainta ei maskattu. En osaa sanoa, ratkaisinko tehtävän oikein, mutta tässä on miten itse ymmärsin tehtävän. 
 
+### Tehtävä 4.
 
 
 
@@ -115,4 +119,5 @@ Sitten ajoin ohjelman ja päätin kokeilla. Se ei ollut oikein, joten aloin miet
 
 ## Lähteet
 
-- Samer,M. 30.8.2023. Medium. Understanding Segmentation Fault in C: Causes and Solutions. Luettavissa: https://medium.com/@mohamedsamer1532/understanding-segmentation-fault-in-c-causes-and-solutions-ed3d1c159d76 Luettu: 22.11.2024. 
+- Samer,M. 30.8.2023. Medium. Understanding Segmentation Fault in C: Causes and Solutions. Luettavissa: https://medium.com/@mohamedsamer1532/understanding-segmentation-fault-in-c-causes-and-solutions-ed3d1c159d76 Luettu: 22.11.2024.
+- 23.11.2024. ASCII Table. Luettavissa: https://www.asciitable.com/ Luettu: 23.11.2024.

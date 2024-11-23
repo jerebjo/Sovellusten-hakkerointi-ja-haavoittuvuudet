@@ -12,7 +12,7 @@ OS: Windows 10
 
 ## a) Lab1. Tutkiminen mikä on ohjelmassa vialla ja miten se korjataan. lab1.zip (22.11.2024)
 
-Aloitin lataamalla 'lab1' zip-tiedoston ja siirsin sen käyttäjä kansioon. Sen jälkeen ihan ensimmäiseksi kokeilin mitä ohjelma tekee kun sen ajaa: 
+Aloitin lataamalla `lab1` zip-tiedoston ja siirsin sen käyttäjä kansioon. Sen jälkeen ihan ensimmäiseksi kokeilin mitä ohjelma tekee kun sen ajaa: 
 
     $ ./gdb_example1
 
@@ -25,7 +25,7 @@ En oikein ymmärtänyt mitä tuo tarkoitti, joten aloin debuggamaan ohjelmaa tun
     
 ![list](Kuvat/examplelist.png)
 
-Aloitin debuggauksen siirtymällä 'layout split' näkymään, jossa sitten pläräsin koodia eteenpäin: 
+Aloitin debuggauksen siirtymällä `layout split` näkymään, jossa sitten pläräsin koodia eteenpäin: 
 
     $ break main
     $ run
@@ -48,11 +48,11 @@ Jos ymmärrän kuvaa oikein niin ongelma on rivillä 7, joten lähdin tutkimaan 
 
     $ micro gdb_example1.c
 
-Päätin lähteä googlaamaan mitä 'segmentation fault' oikein tarkoittaa. (Samer, M. 2023) mukaan segmentation fault on virhe kun ohjelma yrittää päästä käsiksi muistiin johon sillä ei ole oikeuksia. Koska ohjelmassa on annettu 'bad_messagen' arvoksi 'NULL' ohjelma ei toimi oletetulla tavalla. Tein koodiin seuraavat korjaukset: 
+Päätin lähteä googlaamaan mitä "segmentation fault" oikein tarkoittaa. (Samer, M. 2023) mukaan segmentation fault on virhe kun ohjelma yrittää päästä käsiksi muistiin johon sillä ei ole oikeuksia. Koska ohjelmassa on annettu `bad_messagen` arvoksi `NULL` ohjelma ei toimi oletetulla tavalla. Tein koodiin seuraavat korjaukset: 
 
 ![virheviesti](Kuvat/virheviesti.png)
 
-Eli jos viestin arvo on "NULL" ohjelma palauttaa sen oikein eikä hajoa: 
+Eli jos viestin arvo on `NULL` ohjelma palauttaa sen oikein eikä hajoa: 
 
 ![lab1fixed](Kuvat/fixedcode.png)
 
@@ -66,7 +66,7 @@ Latasin ensin tiedoston ja purin zip-tiedoston. Seuraavaksi käänsin ohjelman j
 
 ![layoutsplit2](Kuvat/lsplit.png)
 
-Yritin pitkään mennä koodissa eteempäin ja ajaa esim. 'p(char*) $rax', mutta en millään saanut mitään järkevää. Sain kyllä tuolla tavalla esiin "sala-hakkeri-321", mutta, en usko tehtävässä haettiin aivan sitä. Arvelin, että tällä tehtävällä on jotain tekemistä ASCII-taulukon kanssa, mutta en osannut poimia debuggerin avulla oikeita arvoja joita verrata taulukkoon. Jätin tehtävän tähän...
+Yritin pitkään mennä koodissa eteempäin ja ajaa esim. `p(char*) $rax`, mutta en millään saanut mitään järkevää. Sain kyllä tuolla tavalla esiin "sala-hakkeri-321", mutta, en usko tehtävässä haettiin aivan sitä. Arvelin, että tällä tehtävällä on jotain tekemistä ASCII-taulukon kanssa, mutta en osannut poimia debuggerin avulla oikeita arvoja joita verrata taulukkoon. Jätin tehtävän tähän...
 
 ![lab2](Kuvat/lab2.png)
 
@@ -80,7 +80,7 @@ Aloitin tehtävän kääntämällä sen ja avaamalla ohjelman debuggerissa:
     $ gdb crackme03
     $ list
 
-Tämän jälkeen siirryin layout split näkymään ja laitoin breakpointin 'main'-funktioon ja selasin koodia rivi kerrallaan. 
+Tämän jälkeen siirryin layout split näkymään ja laitoin breakpointin `main`-funktioon ja selasin koodia rivi kerrallaan. 
 
     $ layout split
     $ break main
@@ -90,7 +90,7 @@ Selasin koodia pitkään kokeilemalla eri asioita, mutta mikään ei tuntunut an
 
 ![lab3](Kuvat/lab3.png) (23.11.2024) 
 
-Koodissa oli myös maski ja arvot joiden perusteella merkkijono muutetaan oikeaksi salasanaksi. Lähdin ihmettelemään ASCII-taulukkoa. Yritin verrata ASCII-taulukossa olevia arvoja merkkijonoon, joka oli kirjoitettu koodiin 'lAmBdA'. Maskissa oli arvoja ja ne olivat '{2, 3, 2, 3, 5}' Arvelin, että ne lisätään alkuperäiseen arvoon, joten kokeilin lisätä ne merkkijonoon ja siten muodostaa uuden: 
+Koodissa oli myös maski ja arvot joiden perusteella merkkijono muutetaan oikeaksi salasanaksi. Lähdin ihmettelemään ASCII-taulukkoa. Yritin verrata ASCII-taulukossa olevia arvoja merkkijonoon, joka oli kirjoitettu koodiin "lAmBdA". Maskissa oli arvoja ja ne olivat '{2, 3, 2, 3, 5}' Arvelin, että ne lisätään alkuperäiseen arvoon, joten kokeilin lisätä ne merkkijonoon ja siten muodostaa uuden: 
 
 ![ASCII](Kuvat/ASCIItable.png)
 
@@ -101,13 +101,13 @@ Koodissa oli myös maski ja arvot joiden perusteella merkkijono muutetaan oikeak
 - d = 100 + 5 = 105 "i"
 - A = 65 +3 = 68 "D"
 
-Eli maskattu salasana olisi 'nDoEiD'
+Eli maskattu salasana olisi "nDoEiD"
 
 Sitten ajoin ohjelman ja päätin kokeilla. Se ei ollut oikein, joten aloin miettimään, että teinköhän jonkun kääntövirheen. Luulin ymmärtäneeni oikein, että maskissa on vain 5 numeroa, koska alkuperäisessä merkkijonossa on kaksi A-kirjainta. Tässä kohtaan testailin eri versioita, kunnes tajusin, että ehkä kuudetta kirjainta ei maskata ollenkaan, joten kokeilin uudelleen:
 
 ![lab3ratkaisu](Kuvat/lab3solution.png) 
 
-Oikea salasana oli siis 'nDoEiA'- koska viimeistä kirjainta ei maskattu. En osaa sanoa, ratkaisinko tehtävän oikein, mutta tässä on miten itse ymmärsin tehtävän. 
+Oikea salasana oli siis "nDoEiA" koska viimeistä kirjainta ei maskattu. En osaa sanoa, ratkaisinko tehtävän oikein, mutta tässä on miten itse ymmärsin tehtävän. 
 
 ### Tehtävä 4.
 
@@ -117,13 +117,13 @@ Tämän tehtävän aloitin testaamalla mitä koodi tekee ajessa. No idea oli sam
     $ gcc crackme04.c -g -Well -Werror -o crackme04
     $ gdb crackme04
 
-Seuraavaksi siirryin layout split näkymään: 
+Seuraavaksi siirryin `layout split` näkymään: 
 
     $ layout split
     $ break main
     $ run
 
-Liikuin koodia eteenpäin rivi kerrallaan 'nexti' komennolla ja tarkastelin eri arvoja printtaamalla ne, mutta en onnistunut saamaan ohjelmasta juuri mitään irti. Leikin ohjelmalla vielä pari tuntia ja lopulta päätin, että tämä riittää minulle. Katsotaan tunnilla miten tämä lopulta ratkaistiin. 
+Liikuin koodia eteenpäin rivi kerrallaan `nexti` -komennolla ja tarkastelin eri arvoja printtaamalla ne, mutta en onnistunut saamaan ohjelmasta juuri mitään irti. Leikin ohjelmalla vielä pari tuntia ja lopulta päätin, että tämä riittää minulle. Katsotaan tunnilla miten tämä lopulta ratkaistiin. 
 
 ![lab4](Kuvat/kokeilu.png)
     

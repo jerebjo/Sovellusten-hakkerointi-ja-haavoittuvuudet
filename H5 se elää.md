@@ -92,14 +92,18 @@ Koodissa oli myös maski ja arvot joiden perusteella merkkijono muutetaan oikeak
 
 ![ASCII](Kuvat/ASCIItable.png)
 
-l = 108 + 2 = 110 "n"
-A = 65 + 3 = 68 "D" 
-m = 109 + 2 = 111 "o"
-B = 66 + 3 = 69 "E"
-d = 100 + 5 = 105 "i"
-A = 65 +3 = 68 "D"
+- l = 108 + 2 = 110 "n"
+- A = 65 + 3 = 68 "D" 
+- m = 109 + 2 = 111 "o"
+- B = 66 + 3 = 69 "E"
+- d = 100 + 5 = 105 "i"
+- A = 65 +3 = 68 "D"
 
 Eli maskattu salasana olisi 'nDoEiD'
+
+Sitten ajoin ohjelman ja päätin kokeilla. Se ei ollut oikein, joten aloin miettimään, että teinköhän jonkun kääntövirheen. Luulin ymmärtäneeni oikein, että maskissa on vain 5 numeroa, koska alkuperäisessä merkkijonossa on kaksi A-kirjainta. Tässä kohtaan testailin eri versioita, kunnes tajusin, että ehkä kuudetta kirjainta ei maskata ollenkaan, joten kokeilin uudelleen:
+
+![lab3ratkaisu](Kuvat/lab3solution.png) 
 
 
 

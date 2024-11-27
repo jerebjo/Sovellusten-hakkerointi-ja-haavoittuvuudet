@@ -21,3 +21,9 @@ Seuraavaksi lähdin tutkimaan mitä kuva sisältää:
     $ file h1.jpg
 
 ![kuvantiedot](Kuvat/kuvantiedot.png)
+
+Komennon avulla selvisi vähän lisätietoja kuvasta, mutta arvelempa, että se on syönyt muutakin. Lähdin seuraavaksi tutkimaan tiedostoa, `strings` -komennon avulla: 
+
+    $ Strings h1.jpg | less
+
+![Strings-komennon tulos](Kuvat/stringsh1.png)

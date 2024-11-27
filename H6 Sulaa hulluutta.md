@@ -27,3 +27,10 @@ Komennon avulla selvisi vähän lisätietoja kuvasta, mutta arvelempa, että se 
     $ Strings h1.jpg | less
 
 ![Strings-komennon tulos](Kuvat/stringsh1.png)
+
+`Strings`-komennon avulla tiedostosta löytyi omituisia merkkijonoja, mutta en oikein saanut koppia siitä mitä ne tarkoittavat. Päätin tutkia työkaluja netistä ja törmäsin (Piyushagg, 2021) -ohjeeseen exiftool-työkalusta. Päätin ladata työkalyn ja testata: 
+
+    $ sudo apt-get install exiftool
+    $ exiftool h1.jpg
+
+![exiftool testi](Kuvat/exiftool.png)

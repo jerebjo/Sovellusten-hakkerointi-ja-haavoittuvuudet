@@ -70,6 +70,9 @@ Sieltä paljastui kaiken näköisiä tiedostoja. Ensimmäisenä katsoin mitä "C
 
 ![cat CT](Kuvat/cat.png)
 
+Sieltä löytyi paljon tietoa tiedostoista ja niiden sisältötyypeistä. Seuraavaksi menin tutkimaan `word` tiedostoa: 
+
+![word-tiedoston sisältö](Kuvat/wordsisalto.png))
 ## Lähteet
 
 - Iso-Anttila, L & Karvinen, T. 26.11.2024. Tehtävänanto. h6 Sulaa hulluutta. Luettavissa: https://terokarvinen.com/application-hacking/#h6-sulaa-hulluutta Luettu: 27.11.2024.

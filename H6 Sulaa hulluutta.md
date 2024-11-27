@@ -64,6 +64,12 @@ Tämä komento purkaa tiedoston upotetut tiedostot ja luo uuden hakemiston:
 
 ![extracted](Kuvat/extracted.png)
 
+Sieltä paljastui kaiken näköisiä tiedostoja. Ensimmäisenä katsoin mitä "Content Types" sisältää: 
+
+    $ cat '[Content_Types]'
+
+![cat CT](Kuvat/cat.png)
+
 ## Lähteet
 
 - Iso-Anttila, L & Karvinen, T. 26.11.2024. Tehtävänanto. h6 Sulaa hulluutta. Luettavissa: https://terokarvinen.com/application-hacking/#h6-sulaa-hulluutta Luettu: 27.11.2024.

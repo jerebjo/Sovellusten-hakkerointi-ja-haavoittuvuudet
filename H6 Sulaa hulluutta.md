@@ -46,6 +46,14 @@ Aloitin lataamalla binwalkin ja tutkin sillä h1.jpg-tiedostoa:
 
 ![binwalk testi](Kuvat/binwalk.png)
 
+Komennon avulla selviää, että tiedosto on jonkinlainen zip-arkisto, joka sisältää kuvia (JPEG, TIFF), useita XML-tiedostoja jotka sisältävät esim. Tyylit ja asetukset, Metatiedot ja asiakirjat sekä pääasiakirjan sisällön. Nämä muodostavat luultavasti jonkun word tyyppisen tiedoston.
+
+Seuraavaksi lähdin tutkimaan miten tiedostoja voisi erottaa `binwalkin` avulla. Törmäsin (Roy, A. 2023) artikkeliin "Analysing and extracting firmware using Binwalk" Löysin sieltä seuraavan komennon ja päätin kokeilla: 
+
+    $ binwalk -E h1.jpg
+
+![Entropy](Kuvat/Entropy.png)
+
 ## Lähteet
 
 - Iso-Anttila, L & Karvinen, T. 26.11.2024. Tehtävänanto. h6 Sulaa hulluutta. Luettavissa: https://terokarvinen.com/application-hacking/#h6-sulaa-hulluutta Luettu: 27.11.2024.

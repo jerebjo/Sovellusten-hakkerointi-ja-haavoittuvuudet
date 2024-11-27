@@ -54,8 +54,19 @@ Seuraavaksi lähdin tutkimaan miten tiedostoja voisi erottaa `binwalkin` avulla.
 
 ![Entropy](Kuvat/Entropy.png)
 
+En osaa sanoa muuta entropia taulukosta, kuin se muttuu välillä todella radikaalisti. Tässä kohtaan pyysin ChatGPT 3.5-kielimallilta apua analysoimaan entropia taulukkoa. Tekoälyn mukaan "Rising entropy edge" voi tarkoittaa, että tiedoston sisällä saattaa olla, muutakin dataa kuten pakattuja tiedostoja ja tai joitain salaisia osia. "Falling entropy edge" voi viitata kuvadataan eli tiedostojen rakenne on ennakoitavissa kuten JPEG-tiedostojen datassa. 
+
+Seuraavaksi ajoin komennon: 
+
+    $ binwalk -e h1.jpg
+
+Tämä komento purkaa tiedoston upotetut tiedostot ja luo uuden hakemiston: 
+
+![extracted](Kuvat/extracted.png)
+
 ## Lähteet
 
 - Iso-Anttila, L & Karvinen, T. 26.11.2024. Tehtävänanto. h6 Sulaa hulluutta. Luettavissa: https://terokarvinen.com/application-hacking/#h6-sulaa-hulluutta Luettu: 27.11.2024.
 - Piyushagg. 11.2.2021. GeeksForGeeks. Installing and Using Exiftool on Linux. Luettavissa: https://www.geeksforgeeks.org/installing-and-using-exiftool-on-linux/ Luettu: 27.11.2024.
+- Anindya Sankar Roy. 30.8.2023. Medium. Analysing and extracting firmware using Binwalk. Luettavissa: https://fr3ak-hacks.medium.com/analysing-and-extracting-firmware-using-binwalk-982012281ff6 Luettu: 27.11.2024.
 - 

@@ -74,10 +74,16 @@ Sieltä löytyi paljon tietoa tiedostoista ja niiden sisältötyypeistä. Seuraa
 
 ![word-tiedoston sisältö](Kuvat/wordsisalto.png)
 
-Word-hakemisto oli syönyt aika paljon erilaisia xml-tiedostoja, joten päätin lähteä availemaan niitä microlla. Avattuani kaikki hakemistossa olevat tiedostot en löytänyt mitään mielenkiintoista: 
+Word-hakemisto oli syönyt aika paljon erilaisia xml-tiedostoja, joten päätin lähteä availemaan niitä microlla. Avattuani kaikki hakemistossa olevat tiedostot en löytänyt mitään mielenkiintoista. Kakki olivat alla olevan kuvan kaltaisia:  
 
 ![document.xml](Kuvat/document.png)
-## Lähteet
+
+Ainut tiedosto mitä en saanut auki oli `494F5` zip-tiedosto. En voinut purkaa sitä, koska se oli ilmeisesti vioittunut jollain tapaa. Kaikki muutkin tiedostot olivat sisällöltääm saman kaltaisia, kuin yllä olevan kuvan tiedosto. 
+
+## c) FOSS (Free Android OpenSource). Tutustu Android-sovelluksiin Offan (2024) listalta: Android FOSS. Valitse listalla itsellesi mielenkiintoisin applikaatio ja mene sen GitHubiin. Lataa ohjelman APK itsellesi ja käytä seuraavia työkaluja tutustuaksesi, miten APK:n voi avata.
+## Lähteet 
+
+
 
 - Iso-Anttila, L & Karvinen, T. 26.11.2024. Tehtävänanto. h6 Sulaa hulluutta. Luettavissa: https://terokarvinen.com/application-hacking/#h6-sulaa-hulluutta Luettu: 27.11.2024.
 - Piyushagg. 11.2.2021. GeeksForGeeks. Installing and Using Exiftool on Linux. Luettavissa: https://www.geeksforgeeks.org/installing-and-using-exiftool-on-linux/ Luettu: 27.11.2024.

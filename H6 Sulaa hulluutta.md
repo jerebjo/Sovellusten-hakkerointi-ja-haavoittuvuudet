@@ -72,7 +72,11 @@ Sieltä paljastui kaiken näköisiä tiedostoja. Ensimmäisenä katsoin mitä "C
 
 Sieltä löytyi paljon tietoa tiedostoista ja niiden sisältötyypeistä. Seuraavaksi menin tutkimaan `word` tiedostoa: 
 
-![word-tiedoston sisältö](Kuvat/wordsisalto.png))
+![word-tiedoston sisältö](Kuvat/wordsisalto.png)
+
+Word-hakemisto oli syönyt aika paljon erilaisia xml-tiedostoja, joten päätin lähteä availemaan niitä microlla. Avattuani kaikki hakemistossa olevat tiedostot en löytänyt mitään mielenkiintoista: 
+
+![document.xml](Kuvat/document.png)
 ## Lähteet
 
 - Iso-Anttila, L & Karvinen, T. 26.11.2024. Tehtävänanto. h6 Sulaa hulluutta. Luettavissa: https://terokarvinen.com/application-hacking/#h6-sulaa-hulluutta Luettu: 27.11.2024.

@@ -35,7 +35,7 @@ Komennon avulla selvisi vähän lisätietoja kuvasta, mutta arvelempa, että se 
 
 ![exiftool testi](Kuvat/exiftool.png)
 
-Komennon avulla saatiin yksityiskohtaisempaa dataa kuvasta, ja mielestäni se esittää paljon hyödyllistä tietoa. En osaa sanoa, mitä muuta kuvasta pitäisi saada selville, joten en jää pohtimaan asiaa pidempään. 
+Komennon avulla saatiin yksityiskohtaisempaa dataa kuvasta, ja mielestäni se esittää paljon hyödyllistä tietoa. En osaa sanoa, mitä muuta tehtävästä pitäisi saada selville, joten en jää pohtimaan asiaa pidempään. 
 
 ## ) Tutki tiedostoa h1.jpg binwalk:lla. Mitä tietoja löydät nyt tiedostosta? Mitä työkalua käyttäisit tiedostojen erottamiseen? (Huomaa, että binwalk versio 2.x ja 3.x toimivat eri tavalla.) 
 
@@ -82,6 +82,19 @@ Ainut tiedosto mitä en saanut auki oli `494F5` zip-tiedosto. En voinut purkaa s
 
 ## c) FOSS (Free Android OpenSource). Tutustu Android-sovelluksiin Offan (2024) listalta: Android FOSS. Valitse listalla itsellesi mielenkiintoisin applikaatio ja mene sen GitHubiin. Lataa ohjelman APK itsellesi ja käytä seuraavia työkaluja tutustuaksesi, miten APK:n voi avata.
 ## Lähteet 
+
+Aloitin tehtävän lataamalla tarvittavat työkalut eli latasin `Byte code Viewer` ja `JADX` Sitten vielä latasin `OpenCalc.apk` Siirsin vielä ladatut tiedostot kotihakemistoon ja purin ne. 
+
+    $ mv <zip-tiedosto> /home/jereb/
+    $ unzip <zip-tiedosto>
+
+Minulla ei ollut mitään hajua kuinka apk:n voisi avata, joten lähdin tutkimaan netistä ohjeita. Netistä en kuitenkaan löytänyt järkevän näköisiä ohjeita millä saisin suoran vastauksen kysymykseeni, joten kysyin ChatGPT 3.5 kielimallilta miten voin avata apk-tiedoston jadx avulla linuxissa. Sain selville, että jadx gui avaa graafisen ohjelman, joten avasin sen: 
+
+    $ ./bin/jadx-gui
+
+Sitten avasin ohjelmalla `OpenCalc-apk`
+
+![jadx-gui](Kuvat/jadx-gui.png)
 
 
 

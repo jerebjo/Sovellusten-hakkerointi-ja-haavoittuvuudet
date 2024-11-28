@@ -96,7 +96,15 @@ Sitten avasin ohjelmalla `OpenCalc-apk`
 
 ![jadx-gui](Kuvat/jadx-gui.png)
 
+Sain apk:n onnistuneesti auki jadx avulla. 
 
+Seuraavaksi kokeilin avata apk:n Bytecode-Viewerin avulla
+
+    $ java jar ByteCode-Viewer.2.12.jar
+
+Sitten avasin Apk-tiedoston ByteCode-Viewerissä: 
+
+![ByteCode-Viewer](Kuvat/bytecode.png)
 
 - Iso-Anttila, L & Karvinen, T. 26.11.2024. Tehtävänanto. h6 Sulaa hulluutta. Luettavissa: https://terokarvinen.com/application-hacking/#h6-sulaa-hulluutta Luettu: 27.11.2024.
 - Piyushagg. 11.2.2021. GeeksForGeeks. Installing and Using Exiftool on Linux. Luettavissa: https://www.geeksforgeeks.org/installing-and-using-exiftool-on-linux/ Luettu: 27.11.2024.

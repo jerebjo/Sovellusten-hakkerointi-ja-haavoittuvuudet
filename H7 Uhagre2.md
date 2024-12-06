@@ -12,7 +12,7 @@ OS: Windows 10
 
 ## Ratkaise CryptoPals Set 1 -haasteet. Tehtävät saa ratkaista millä vain ohjelmointikielellä ja käyttää mitä tahansa tekstieditoria tai IDE:ä. Tehtäviä ei kannata ratkaista tekoälyllä, koska se vain kopioi malliratkaisun suoraan koulutusmateriaalistaan. 
 
-### a) 1. Convert hex to base64
+### a) 1. Convert hex to base64 (5.12.2024)
 
 Aloitin avaamalla ensimmäisne haasteen. Seuraavaksi avasin microssa uuden tiedoston nimeltä `challenge1`.
 
@@ -26,7 +26,7 @@ Tässä vielä tehtävän tulos:
 
 ![challenge1 result](Kuvat/c1result.png)
 
-### b) 2. Fixed XOR 
+### b) 2. Fixed XOR (6.12.2024)
 
 Tehtävä oli täysin hepreaa itselle, joten lähdin etsimään vinkkejä netistä kuinka yhdistää xor-merkkijonot yhteen pythonissa. Löysin netistä (Kültekin, Ö. 2021) artikkelin, josta sain apua tehtävään, sillä edes teron vinkit eivät auttaneet minua tehtävässä. Loin ohjelman nettisivun pohjalta: 
 
@@ -36,10 +36,24 @@ Tässä vielä koodi käännettynä:
 
 ![Challenge 2 result](Kuvat/c2result.png)
 
+### c) 3. Single-byte XOR cipher. 
+
+Aloitin tehtävän lukemalla tehtävänannon, jonka tarkoituksena oli löytää avain hex-encodatusta merkkijonosta. Lähdin lukemaan Teron vinkkejä, koska minulla ei ollut aavistustakaan kuinka lähteä rakentamaan koodia. Määritin ensimmäisenä yleisimmät merkit englanninkielisessä tekstissä: 
+
+![Yleisimmät merkit](Kuvat/yleisimmät.png)
+
+Seuraavaksi hyödynsin chat GPT 3.5 kielimallia siihen, että miten voin kkokeilla kaikkia yksitavuisia xor-avaimia: 
+
+![Avaimien läpikäynti](Kuvat/läpikäynti.png)
+
+Lopuksi tein vielä main-funktion, joka muuntaa hex-merkkijonon tavuiksi: 
+
+![Main-funktio](Kuvat/mainfunktio.png)
+
 ## lähteet
 
 - Karvinen, T. 4.12.2024. Tehtävänanto. h7-uhagre2 Luettavissa: https://terokarvinen.com/application-hacking/#h7-uhagre2 Luettu: 5.12.2024.
 - He3. 2022. Hex to Base64: Converting Hexadecimal to Base64 Easily. Luettavissa: https://he3app.com/blogs/hex-to-base64-converting-hexadecimal-to-base64-easily Luettu: 5.12.2024.
-- 
+- Kültekin, Ö. 26.1.2021. Medium. Crypto Basics: Fixed XOR implementation [Python][Cryptopals] Luettavissa:  https://medium.com/analytics-vidhya/crypto-basics-fixed-xor-implementation-python-9cfba54f4661 Luettu: 6.12.2024
 
 

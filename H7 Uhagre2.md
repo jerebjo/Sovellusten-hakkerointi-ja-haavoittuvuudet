@@ -32,6 +32,10 @@ Tehtävä oli täysin hepreaa itselle, joten lähdin etsimään vinkkejä netist
 
 ![challenge2 code](Kuvat/challenge2.png)
 
+Tässä vielä koodi käännettynä: 
+
+![Challenge 2 result](Kuvat/c2result.png)
+
 ## lähteet
 
 - Karvinen, T. 4.12.2024. Tehtävänanto. h7-uhagre2 Luettavissa: https://terokarvinen.com/application-hacking/#h7-uhagre2 Luettu: 5.12.2024.

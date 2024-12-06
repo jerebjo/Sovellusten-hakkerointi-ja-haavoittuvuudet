@@ -18,10 +18,24 @@ Aloitin avaamalla ensimmäisne haasteen. Seuraavaksi avasin microssa uuden tiedo
 
     $ micro challenge1.py
 
-En oikeastaan keksinyt miten voisin kääntää hex-stringin base64 muotoon, joten lähdin suoraan tutkimaan asiaa netistä. Törmäsin (he3, 2023) artikkeliin hex-merkkien kääntämisestä base64-merkeiksi. Kokeilin luoda oman koodini tämän pohjalta hyödyntäen myös materiaalissa olevia vinkkejä. 
+En oikeastaan keksinyt miten voisin kääntää hex-stringin base64 muotoon, joten lähdin suoraan tutkimaan asiaa netistä. Törmäsin (he3, 2022) artikkeliin hex-merkkien kääntämisestä base64-merkeiksi. Kokeilin luoda oman koodini tämän pohjalta hyödyntäen myös materiaalissa olevia vinkkejä. 
 
 ![hextobase64](Kuvat/hextobase.png)
 
 Tässä vielä tehtävän tulos: 
 
 ![challenge1 result](Kuvat/c1result.png)
+
+### b) 2. Fixed XOR 
+
+Tehtävä oli täysin hepreaa itselle, joten lähdin etsimään vinkkejä netistä kuinka yhdistää xor-merkkijonot yhteen pythonissa. Löysin netistä (Kültekin, Ö. 2021) artikkelin, josta sain apua tehtävään, sillä edes teron vinkit eivät auttaneet minua tehtävässä. Loin ohjelman nettisivun pohjalta: 
+
+![challenge2 code](Kuvat/challenge2.png)
+
+## lähteet
+
+- Karvinen, T. 4.12.2024. Tehtävänanto. h7-uhagre2 Luettavissa: https://terokarvinen.com/application-hacking/#h7-uhagre2 Luettu: 5.12.2024.
+- He3. 2022. Hex to Base64: Converting Hexadecimal to Base64 Easily. Luettavissa: https://he3app.com/blogs/hex-to-base64-converting-hexadecimal-to-base64-easily Luettu: 5.12.2024.
+- 
+
+

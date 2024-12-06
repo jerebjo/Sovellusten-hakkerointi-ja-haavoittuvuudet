@@ -21,3 +21,7 @@ Aloitin avaamalla ensimmäisne haasteen. Seuraavaksi avasin microssa uuden tiedo
 En oikeastaan keksinyt miten voisin kääntää hex-stringin base64 muotoon, joten lähdin suoraan tutkimaan asiaa netistä. Törmäsin (he3, 2023) artikkeliin hex-merkkien kääntämisestä base64-merkeiksi. Kokeilin luoda oman koodini tämän pohjalta hyödyntäen myös materiaalissa olevia vinkkejä. 
 
 ![hextobase64](Kuvat/hextobase.png)
+
+Tässä vielä tehtävän tulos: 
+
+![challenge1 result](Kuvat/c1result.png)

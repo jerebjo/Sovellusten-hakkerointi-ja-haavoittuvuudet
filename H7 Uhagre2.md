@@ -74,6 +74,14 @@ Päätin kokeilla syöttää tämän edellisen tehtävän ohjelman merkkijonon t
 
 ![testi](Kuvat/testi.png)
 
+Sieltä ei kuitenkaan tulostunut mitään järkevää. Koodia piti selvästi muokata jotenkin Teron vinkkien mukaan. Ohjelmaan piti siis luoda vielä yksi looppi, joka yrittää decryptata jokaisen merkkijonon tekstitiedostosta. Hyödynsin tehtävässä chat gpt 3.5 kielimallia ja kysyin kuinka voin luoda loopin, joka tarkastaa tekstitiedostosta kaikki rivit ja decryptaa ne. Lopputulos näytti tältä: 
+
+![challenge 4 koodi](Kuvat/c4code.png)
+
+Kokeilin vielä kääntää ohjelman ja katsoa, mitä se tulostaa: 
+
+![c4result](Kuvat/c4result.png)
+
 ## lähteet
 
 - Karvinen, T. 4.12.2024. Tehtävänanto. h7-uhagre2 Luettavissa: https://terokarvinen.com/application-hacking/#h7-uhagre2 Luettu: 5.12.2024.

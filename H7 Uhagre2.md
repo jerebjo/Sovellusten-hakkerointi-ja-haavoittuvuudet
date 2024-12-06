@@ -42,7 +42,7 @@ Aloitin tehtävän lukemalla tehtävänannon, jonka tarkoituksena oli löytää 
 
 ![Yleisimmät merkit](Kuvat/yleisimmät.png)
 
-Seuraavaksi hyödynsin chat GPT 3.5 kielimallia siihen, että miten voin kkokeilla kaikkia yksitavuisia xor-avaimia: 
+Seuraavaksi hyödynsin chat GPT 3.5 kielimallia siihen, että miten voin kokeilla kaikkia yksitavuisia xor-avaimia: 
 
 ![Avaimien läpikäynti](Kuvat/läpikäynti.png)
 
@@ -53,6 +53,26 @@ Lopuksi tein vielä main-funktion, joka muuntaa hex-merkkijonon tavuiksi:
 Sitten vielä testasin mitä ohjelma oikein tulostaa: 
 
 ![challenge 3 tulostus](Kuvat/tulos.png)
+
+Tuloksista huomasin, että kaikki muut ovat epämääräisiä paitsi yksi, joten oikea ratkaisu on oltava `Cooking MC's like a pund of bacon`
+
+### d) 4. Detect single-character XOR. 
+
+Aloitin lukemalla tehtävänannon, jonka jälkeen latasin tekstitiedoston: 
+
+    $ wget https://cryptopals.com/static/challenge-data/4.txt 
+
+Seuraavaksi avasin tekstitiedoston: 
+
+    $ cat 4.txt
+
+Löysin tekstin seasta, että yksi merkkijono on lyhyempi kuin muut: 
+
+![Lyhyin merkkijono](Kuvat/eripituus.png)
+
+Päätin kokeilla syöttää tämän edellisen tehtävän ohjelman merkkijonon tilalle: 
+
+![testi](Kuvat/testi.png)
 
 ## lähteet
 

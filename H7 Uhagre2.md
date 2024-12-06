@@ -48,7 +48,11 @@ Seuraavaksi hyödynsin chat GPT 3.5 kielimallia siihen, että miten voin kkokeil
 
 Lopuksi tein vielä main-funktion, joka muuntaa hex-merkkijonon tavuiksi: 
 
-![Main-funktio](Kuvat/mainfunktio.png)
+![Main-funktio](Kuvat/mainfunction.png)
+
+Sitten vielä testasin mitä ohjelma oikein tulostaa: 
+
+![challenge 3 tulostus](Kuvat/tulos.png)
 
 ## lähteet
 

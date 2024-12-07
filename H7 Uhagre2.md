@@ -10,10 +10,33 @@ Näytönohjain: NVIVIA GeForce RTX 2050
 
 OS: Windows 10
 
-## x) Lue/katso/kuuntele ja tiivistä. 
+## x) Lue/katso/kuuntele ja tiivistä. (7.12.2024)
+
+### Schneier 2015: Applied Cryptography 
 
 1.1 Terminology 
--  Tärkeintä salakirjoituksessa on, että kukaan väliosapuoli ei voi lukea viestiä. 
+-  Tärkeintä salakirjoituksessa on, että mikään väliosapuoli ei voi lukea viestiä.
+-  Prosessia viestin sisällön piilottamiseksi kutsutaan salakirjoitukseksi.
+-  Symmetriset algoritmit käyttävät samaa salausta ja purkua varten. Molempien osapuolten on sovittava yhteisestä salaisesta avaimesta.
+-  Kryptoanalyysi pyrkii paljastamaan salainen avain tai selväkielinen viesti ilman avainta. 
+
+1.4 Simple XOR
+- XOR on bittien operaatio, jossa tulos on 1, jos kaksi bittiä ovat eriäviä, ja 0, jos ne ovat samoja.
+- Salaus tapahtuu XOR-operaatiolla, jossa teksti XORataan avainsanan kanssa
+- Algoritmi on symmetrinen ja helposti murrettavissa. Salaus tarjoaa ei käytännön turvallisuutta 
+
+1.7 Large Numbers
+- Kryptografian yhteydessä käytetään usein suuria lukuja, joiden mittakaavaa on vaikea hahmottaa.
+
+ Mielenkiintoisia tilastoja todennäköisyyksistä: 
+- Salamaniskusta kuoleminen päivässä: 1:9 miljardia
+- Voittaminen Yhdysvaltojen osavaltiolotossa: 1:4 miljoonaa
+  
+### python basics for hackers
+
+- Artikkelissa käydään läpi perustekniikoita erilaisten toimintojen suorittamiseen.
+- Toimintoja ovat mm. pyhton REPL, Ipython.
+- Artikkelissa esitetään myös esim. tietotyyppejä, Obfuskaatiota ja silmukoiden käyttöä. 
 
 ## Ratkaise CryptoPals Set 1 -haasteet. Tehtävät saa ratkaista millä vain ohjelmointikielellä ja käyttää mitä tahansa tekstieditoria tai IDE:ä. Tehtäviä ei kannata ratkaista tekoälyllä, koska se vain kopioi malliratkaisun suoraan koulutusmateriaalistaan. 
 
@@ -93,5 +116,6 @@ Kokeilin vielä kääntää ohjelman ja katsoa, mitä se tulostaa:
 - He3. 2022. Hex to Base64: Converting Hexadecimal to Base64 Easily. Luettavissa: https://he3app.com/blogs/hex-to-base64-converting-hexadecimal-to-base64-easily Luettu: 5.12.2024.
 - Kültekin, Ö. 26.1.2021. Medium. Crypto Basics: Fixed XOR implementation [Python][Cryptopals] Luettavissa:  https://medium.com/analytics-vidhya/crypto-basics-fixed-xor-implementation-python-9cfba54f4661 Luettu: 6.12.2024
 - NCC group. The cryptopals challenges. Luettavissa: https://cryptopals.com/sets/1 Luettu: 6.12.2024
+- Scheier, B. 3. 2015. Applied Cryptography: Protocols, Algorithms and Source Code in C, 20th Anniversary Edition Luettavissa: https://learning.oreilly.com/library/view/applied-cryptography-protocols/9781119096726/?ar= Luettu: 7.12.2024. 
 
 

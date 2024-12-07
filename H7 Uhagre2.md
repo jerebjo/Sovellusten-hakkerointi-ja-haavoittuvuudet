@@ -10,6 +10,11 @@ Näytönohjain: NVIVIA GeForce RTX 2050
 
 OS: Windows 10
 
+## x) Lue/katso/kuuntele ja tiivistä. 
+
+1.1 Terminology 
+-  Tärkeintä salakirjoituksessa on, että kukaan väliosapuoli ei voi lukea viestiä. 
+
 ## Ratkaise CryptoPals Set 1 -haasteet. Tehtävät saa ratkaista millä vain ohjelmointikielellä ja käyttää mitä tahansa tekstieditoria tai IDE:ä. Tehtäviä ei kannata ratkaista tekoälyllä, koska se vain kopioi malliratkaisun suoraan koulutusmateriaalistaan. 
 
 ### a) 1. Convert hex to base64 (5.12.2024)
@@ -74,7 +79,7 @@ Päätin kokeilla syöttää tämän edellisen tehtävän ohjelman merkkijonon t
 
 ![testi](Kuvat/testi.png)
 
-Sieltä ei kuitenkaan tulostunut mitään järkevää. Koodia piti selvästi muokata jotenkin Teron vinkkien mukaan. Ohjelmaan piti siis luoda vielä yksi looppi, joka yrittää decryptata jokaisen merkkijonon tekstitiedostosta. Hyödynsin tehtävässä chat gpt 3.5 kielimallia ja kysyin kuinka voin luoda loopin, joka tarkastaa tekstitiedostosta kaikki rivit ja decryptaa ne. Lopputulos näytti tältä: 
+Sieltä ei kuitenkaan tulostunut mitään järkevää. Koodia piti selvästi muokata jotenkin Teron vinkkien mukaan. Ohjelmaan piti siis luoda vielä yksi looppi, joka yrittää decryptata jokaisen merkkijonon tekstitiedostosta. En osannut itse suoraan tehdä tällaista looppia, joten hyödynsin tehtävässä chat GPT 3.5 kielimallia ja kysyin kuinka voin luoda loopin, joka tarkastaa tekstitiedostosta kaikki rivit ja decryptaa ne. Lopputulos näytti tältä: 
 
 ![challenge 4 koodi](Kuvat/c4code.png)
 
@@ -87,5 +92,6 @@ Kokeilin vielä kääntää ohjelman ja katsoa, mitä se tulostaa:
 - Karvinen, T. 4.12.2024. Tehtävänanto. h7-uhagre2 Luettavissa: https://terokarvinen.com/application-hacking/#h7-uhagre2 Luettu: 5.12.2024.
 - He3. 2022. Hex to Base64: Converting Hexadecimal to Base64 Easily. Luettavissa: https://he3app.com/blogs/hex-to-base64-converting-hexadecimal-to-base64-easily Luettu: 5.12.2024.
 - Kültekin, Ö. 26.1.2021. Medium. Crypto Basics: Fixed XOR implementation [Python][Cryptopals] Luettavissa:  https://medium.com/analytics-vidhya/crypto-basics-fixed-xor-implementation-python-9cfba54f4661 Luettu: 6.12.2024
+- NCC group. The cryptopals challenges. Luettavissa: https://cryptopals.com/sets/1 Luettu: 6.12.2024
 
 
